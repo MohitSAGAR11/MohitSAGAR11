@@ -117,8 +117,10 @@ I'm constantly learning and exploring:
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MohitSAGAR11&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+<div align="center">
+  <img src="https://github.com/MohitSAGAR11/github-stats/blob/master/generated/overview.svg" alt="stats graph" />
+  <img src="https://github.com/MohitSAGAR11/github-stats/blob/master/generated/languages.svg" alt="languages graph" />
+</div>
 
+---
 <h4 align="center">💡 Let's collaborate and build something awesome! 🚀</h4>
