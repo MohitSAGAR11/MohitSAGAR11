@@ -1,0 +1,24 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs at 00:00 UTC every day
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update this repo's README with latest stats
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate GitHub Stats
+        uses: jstrieb/github-stats@master
+        with:
+          EXCLUDED: |
+            MohitSAGAR11/MohitSAGAR11
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
