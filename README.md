@@ -1,5 +1,5 @@
 <h2 align="center">Hey there, I'm <span style="color:#00ADD8">Mohit Sagar</span> 👋</h2>
-<h4 align="center">Full-Stack Developer • Backend Specialist • Problem Solver 🚀</h4>
+<h4 align="center">Full-Stack Developer • Problem Solving Enthusiast 🚀</h4>
 
 <img align="right" height="240" width="240" src="https://i.pinimg.com/originals/e6/da/c1/e6dac1038095d76596e8b1bd9653f569.gif" />
 👨‍💻 About Me
@@ -39,12 +39,6 @@ I'm constantly learning and exploring:
     <td align="left" valign="middle"><strong>🗄️ Databases</strong></td>
     <td align="left" valign="middle">
       <img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" alt="databases" />
-    </td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle"><strong>☁️ DevOps & Hosting</strong></td>
-    <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=vercel,netlify&theme=dark" alt="devops" />
     </td>
   </tr>
   <tr>
