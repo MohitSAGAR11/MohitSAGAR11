@@ -117,10 +117,5 @@ I'm constantly learning and exploring:
 
 ---
 
-<div align="center">
-  <img src="https://github.com/MohitSAGAR11/github-stats/blob/master/generated/overview.svg" alt="stats graph" />
-  <img src="https://github.com/MohitSAGAR11/github-stats/blob/master/generated/languages.svg" alt="languages graph" />
-</div>
 
----
 <h4 align="center">💡 Let's collaborate and build something awesome! 🚀</h4>
