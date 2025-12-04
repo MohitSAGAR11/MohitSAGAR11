@@ -18,13 +18,13 @@ I'm constantly learning and exploring:
   <tr>
     <td align="left" valign="middle"><strong>🧠 Languages</strong></td>
     <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=go,java,python,js,ts&theme=dark" alt="languages" />
+      <img src="https://skillicons.dev/icons?i=go,java,python,js&theme=dark" alt="languages" />
     </td>
   </tr>
   <tr>
     <td align="left" valign="middle"><strong>⚙️ Backend & Frameworks</strong></td>
     <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi&theme=dark" alt="backend" />
+      <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="backend" />
       <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" height="48" />
       <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" height="48" />
     </td>
