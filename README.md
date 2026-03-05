@@ -27,7 +27,7 @@ I'm constantly learning and exploring:
   <tr>
     <td align="left" valign="middle"><strong>🧠 Languages</strong></td>
     <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=go,java,python,js&theme=dark" alt="languages" />
+      <img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" alt="languages" />
     </td>
   </tr>
 
