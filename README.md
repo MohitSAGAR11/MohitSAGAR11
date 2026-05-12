@@ -14,6 +14,7 @@ I'm constantly learning and exploring:
 - ⚡ Performance optimization
 - 🧩 Data structures and algorithms
 - 🌐 Modern web technologies
+- 🤖 Generative AI & LLM integrations
 
 <br clear="right"/>
 
@@ -27,14 +28,14 @@ I'm constantly learning and exploring:
   <tr>
     <td align="left" valign="middle"><strong>🧠 Languages</strong></td>
     <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" alt="languages" />
+      <img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" alt="languages" />
     </td>
   </tr>
 
   <tr>
     <td align="left" valign="middle"><strong>⚙️ Backend & Frameworks</strong></td>
     <td align="left" valign="middle">
-      <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="backend" />
+      <img src="https://skillicons.dev/icons?i=nodejs,express,spring&theme=dark" alt="backend" />
       <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" height="48" />
       <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" height="48" />
     </td>
@@ -55,9 +56,11 @@ I'm constantly learning and exploring:
   </tr>
 
   <tr>
-    <td align="left" valign="middle"><strong>🧮 Data Science / ML</strong></td>
+    <td align="left" valign="middle"><strong>🤖 GenAI & ML</strong></td>
     <td align="left" valign="middle">
       <img src="https://skillicons.dev/icons?i=scikitlearn&theme=dark" alt="ml" />
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" height="48" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" />
       <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" height="48" />
       <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" height="48" />
       <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white" height="48" />
@@ -98,6 +101,7 @@ I'm constantly learning and exploring:
 ---
 
 ### ✍️ Random Dev Quote
+
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </p>
@@ -116,6 +120,5 @@ I'm constantly learning and exploring:
 </p>
 
 ---
-
 
 <h4 align="center">💡 Let's collaborate and build something awesome! 🚀</h4>
