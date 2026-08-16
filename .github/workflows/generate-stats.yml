@@ -1,24 +1,28 @@
-name: Generate Stats
+name: Refresh Profile Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs at 00:00 UTC every day
+    - cron: "0 2 * * *"   # runs daily at 02:00 UTC (offset from snake workflow)
   workflow_dispatch:
-  push:
-    branches: ["main"]
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
-    name: Update this repo's README with latest stats
+    name: Update profile README stats cache
 
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Generate GitHub Stats
-        uses: jstrieb/github-stats@master
-        with:
-          EXCLUDED: |
-            MohitSAGAR11/MohitSAGAR11
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Refresh README timestamp (keeps GitHub stats CDN fresh)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          touch .github/.last-refreshed
+          echo "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" > .github/.last-refreshed
+          git add .github/.last-refreshed
+          git diff --cached --quiet || git commit -m "chore: refresh profile stats [skip ci]"
+          git push
