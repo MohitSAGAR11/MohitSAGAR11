@@ -1,0 +1,104 @@
+name: Refresh Recent Activity
+
+# Rewrites the block between <!-- ACTIVITY:START --> and <!-- ACTIVITY:END -->
+# in README.md with the latest public GitHub events.
+#
+# Secrets: none required. Uses the built-in GITHUB_TOKEN.
+#   Optional: add a classic PAT named PROFILE_TOKEN (scope: public_repo) if you
+#   later want events the default token can't see. It is picked up automatically.
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # daily 04:30 UTC — offset from the snake (00:00) and stats (02:00) jobs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    name: Update recent activity block
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build activity list
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const USER = 'MohitSAGAR11';
+            const MAX = 5;
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: USER,
+              per_page: 100,
+            });
+
+            const repoLink = (e) => `[${e.repo.name}](https://github.com/${e.repo.name})`;
+            const day = (e) => e.created_at.slice(0, 10);
+
+            const describe = (e) => {
+              switch (e.type) {
+                case 'PushEvent': {
+                  const n = e.payload.commits ? e.payload.commits.length : e.payload.size || 0;
+                  const branch = (e.payload.ref || '').replace('refs/heads/', '');
+                  return `pushed ${n} commit${n === 1 ? '' : 's'} to \`${branch}\` in ${repoLink(e)}`;
+                }
+                case 'PullRequestEvent':
+                  return `${e.payload.action} PR [#${e.payload.number}](${e.payload.pull_request.html_url}) in ${repoLink(e)}`;
+                case 'IssuesEvent':
+                  return `${e.payload.action} issue [#${e.payload.issue.number}](${e.payload.issue.html_url}) in ${repoLink(e)}`;
+                case 'ReleaseEvent':
+                  return `released [${e.payload.release.tag_name}](${e.payload.release.html_url}) in ${repoLink(e)}`;
+                case 'CreateEvent':
+                  return e.payload.ref_type === 'repository'
+                    ? `created ${repoLink(e)}`
+                    : `created ${e.payload.ref_type} \`${e.payload.ref}\` in ${repoLink(e)}`;
+                default:
+                  return null;
+              }
+            };
+
+            const lines = [];
+            const seen = new Set();
+            for (const e of events) {
+              const text = describe(e);
+              if (!text) continue;
+              const key = `${day(e)}|${text}`;
+              if (seen.has(key)) continue;   // collapse repeated same-day pushes
+              seen.add(key);
+              lines.push(`- \`${day(e)}\` — ${text}`);
+              if (lines.length >= MAX) break;
+            }
+
+            const body = lines.length
+              ? lines.join('\n')
+              : '- _No public activity in the recent event window._';
+
+            const START = '<!-- ACTIVITY:START -->';
+            const END = '<!-- ACTIVITY:END -->';
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const pattern = new RegExp(`${START}[\\s\\S]*?${END}`);
+
+            if (!pattern.test(readme)) {
+              core.setFailed('ACTIVITY markers not found in README.md');
+              return;
+            }
+
+            // function replacer: keeps any $-sequence in the text from being read
+            // as a regex backreference
+            const block = `${START}\n${body}\n${END}`;
+            fs.writeFileSync('README.md', readme.replace(pattern, () => block));
+            core.info(`Wrote ${lines.length} activity line(s).`);
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: refresh recent activity [skip ci]"
+          git push
