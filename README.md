@@ -165,15 +165,22 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, Kubernetes]
 
 <div align="center">
 
-  <picture>
+  <!-- DISABLED 2026-08-20: the public github-readme-stats instance is returning
+       DEPLOYMENT_PAUSED, so this card renders as a broken image. Two ways back:
+         a) wait for the upstream deployment to be resumed, then uncomment; or
+         b) self-host it (fork anuraghazra/github-readme-stats, deploy to your own
+            Vercel, add a PAT as the PAT_1 env var) and swap the host below.
+       Check status: curl -o /dev/null -w "%{http_code}" https://github-readme-stats.vercel.app/api?username=MohitSAGAR11
+    <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=F0B429&icon_color=F0B429&text_color=8B949E&ring_color=F0B429">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=B4690E&icon_color=B4690E&text_color=59636E&ring_color=B4690E">
     <img width="400" alt="GitHub stats for MohitSAGAR11" src="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=F0B429&icon_color=F0B429&text_color=8B949E&ring_color=F0B429">
-  </picture>
+    </picture>
+  -->
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=F0B429&fire=F0B429&currStreakLabel=F0B429&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=D0D7DE&ring=B4690E&fire=B4690E&currStreakLabel=B4690E&currStreakNum=1F2328&sideNums=1F2328&sideLabels=59636E&dates=59636E">
-    <img width="415" alt="Contribution streak for MohitSAGAR11" src="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=F0B429&fire=F0B429&currStreakLabel=F0B429&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
+    <img width="460" alt="Contribution streak for MohitSAGAR11" src="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=F0B429&fire=F0B429&currStreakLabel=F0B429&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
   </picture>
 
   <br><br>
