@@ -59,12 +59,10 @@
 CS Engineer focused on **backend architecture**, **AI/ML systems**, and **scalable software design**. I work across the full backend stack — from REST APIs and microservices to RAG pipelines and LLM-powered agents.
 
 ```yaml
-role:       Computer Science Engineer
-focus:      Backend · AI/RAG · System Design · DSA
 stack:      Java · Python · TypeScript · Spring Boot · Node.js · LangChain
 location:   India
 contact:    mohitsagar378@gmail.com
-status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, Kubernetes]
+status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubernetes]
 ```
 
 <br>
@@ -218,19 +216,7 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, Kubernetes]
 
 <br>
 
-## Connect
-
 <div align="center">
-
-  <a href="mailto:mohitsagar378@gmail.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-F0B429?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=say%20hello">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=say%20hello">
-      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-F0B429?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=say%20hello">
-    </picture>
-  </a>
-
-  <br><br>
 
   <sub><code>// build things that matter — ship code that scales</code></sub>
 
