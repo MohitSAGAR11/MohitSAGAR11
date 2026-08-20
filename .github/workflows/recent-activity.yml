@@ -38,22 +38,33 @@ jobs:
               per_page: 100,
             });
 
-            const repoLink = (e) => `[${e.repo.name}](https://github.com/${e.repo.name})`;
+            const repoUrl  = (e) => `https://github.com/${e.repo.name}`;
+            const repoLink = (e) => `[${e.repo.name}](${repoUrl(e)})`;
             const day = (e) => e.created_at.slice(0, 10);
 
+            // Event payloads from the public-events API are thinner than the REST
+            // objects of the same name, so derive every URL from repo + number
+            // rather than trusting payload.*.html_url (it is often absent).
             const describe = (e) => {
               switch (e.type) {
                 case 'PushEvent': {
-                  const n = e.payload.commits ? e.payload.commits.length : e.payload.size || 0;
+                  const n = e.payload.size ?? (e.payload.commits ? e.payload.commits.length : 0);
+                  if (!n) return null;   // branch creates and force-pushes report zero commits
                   const branch = (e.payload.ref || '').replace('refs/heads/', '');
                   return `pushed ${n} commit${n === 1 ? '' : 's'} to \`${branch}\` in ${repoLink(e)}`;
                 }
-                case 'PullRequestEvent':
-                  return `${e.payload.action} PR [#${e.payload.number}](${e.payload.pull_request.html_url}) in ${repoLink(e)}`;
-                case 'IssuesEvent':
-                  return `${e.payload.action} issue [#${e.payload.issue.number}](${e.payload.issue.html_url}) in ${repoLink(e)}`;
-                case 'ReleaseEvent':
-                  return `released [${e.payload.release.tag_name}](${e.payload.release.html_url}) in ${repoLink(e)}`;
+                case 'PullRequestEvent': {
+                  const num = e.payload.number;
+                  return `${e.payload.action} PR [#${num}](${repoUrl(e)}/pull/${num}) in ${repoLink(e)}`;
+                }
+                case 'IssuesEvent': {
+                  const num = e.payload.issue.number;
+                  return `${e.payload.action} issue [#${num}](${repoUrl(e)}/issues/${num}) in ${repoLink(e)}`;
+                }
+                case 'ReleaseEvent': {
+                  const tag = e.payload.release.tag_name;
+                  return `released [${tag}](${repoUrl(e)}/releases/tag/${tag}) in ${repoLink(e)}`;
+                }
                 case 'CreateEvent':
                   return e.payload.ref_type === 'repository'
                     ? `created ${repoLink(e)}`
