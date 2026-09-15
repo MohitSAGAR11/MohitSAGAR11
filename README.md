@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-09-15` — created branch `Mohit-Sagar` in [MohitSAGAR11/first-contributions](https://github.com/MohitSAGAR11/first-contributions)
+- `2026-09-15` — merged PR [#124952](https://github.com/firstcontributions/first-contributions/pull/124952) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
+- `2026-09-15` — opened PR [#124952](https://github.com/firstcontributions/first-contributions/pull/124952) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 - `2026-09-09` — created branch `main` in [MohitSAGAR11/URL_shortener](https://github.com/MohitSAGAR11/URL_shortener)
 - `2026-09-06` — created branch `main` in [MohitSAGAR11/Backend_Notes](https://github.com/MohitSAGAR11/Backend_Notes)
-- `2026-09-07` — created branch `main` in [MohitSAGAR11/Cinema_booking](https://github.com/MohitSAGAR11/Cinema_booking)
-- `2026-09-01` — created branch `main` in [MohitSAGAR11/devops-assignment](https://github.com/MohitSAGAR11/devops-assignment)
-- `2026-08-25` — created branch `main` in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
 <!-- ACTIVITY:END -->
 
 </details>
