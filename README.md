@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-09-18` — created branch `13653/refactor/notes-modal-ol-dialog` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-09-18` — merged PR [#13671](https://github.com/internetarchive/openlibrary/pull/13671) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-09-18` — opened PR [#13671](https://github.com/internetarchive/openlibrary/pull/13671) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-09-15` — created branch `Mohit-Sagar` in [MohitSAGAR11/first-contributions](https://github.com/MohitSAGAR11/first-contributions)
 - `2026-09-15` — merged PR [#124952](https://github.com/firstcontributions/first-contributions/pull/124952) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
-- `2026-09-15` — opened PR [#124952](https://github.com/firstcontributions/first-contributions/pull/124952) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
-- `2026-09-09` — created branch `main` in [MohitSAGAR11/URL_shortener](https://github.com/MohitSAGAR11/URL_shortener)
-- `2026-09-06` — created branch `main` in [MohitSAGAR11/Backend_Notes](https://github.com/MohitSAGAR11/Backend_Notes)
 <!-- ACTIVITY:END -->
 
 </details>
