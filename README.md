@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-10` — created branch `13587/fix/local-dev-fallback-in-tests` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 - `2026-10-10` — created branch `13772/fix/coverstore-malformed-size-filename` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 - `2026-10-10` — opened PR [#13880](https://github.com/internetarchive/openlibrary/pull/13880) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-10` — opened PR [#13879](https://github.com/internetarchive/openlibrary/pull/13879) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-07` — created branch `main` in [MohitSAGAR11/devops_finalAssignment](https://github.com/MohitSAGAR11/devops_finalAssignment)
-- `2026-10-07` — created branch `main` in [MohitSAGAR11/ci_cd_cal](https://github.com/MohitSAGAR11/ci_cd_cal)
 <!-- ACTIVITY:END -->
 
 </details>
