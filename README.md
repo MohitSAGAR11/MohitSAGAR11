@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-14` — merged PR [#134](https://github.com/hyperjump-io/json-schema/pull/134) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-10-14` — opened issue [#294](https://github.com/hyperjump-io/json-schema-errors/issues/294) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
+- `2026-10-14` — opened PR [#134](https://github.com/hyperjump-io/json-schema/pull/134) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-10-13` — opened issue [#133](https://github.com/hyperjump-io/json-schema/issues/133) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 - `2026-10-13` — merged PR [#13880](https://github.com/internetarchive/openlibrary/pull/13880) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-10` — closed PR [#13879](https://github.com/internetarchive/openlibrary/pull/13879) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-12` — opened PR [#13888](https://github.com/internetarchive/openlibrary/pull/13888) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-12` — created branch `13853/fix/marc-author-title-subfield` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-10-10` — created branch `13587/fix/local-dev-fallback-in-tests` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 <!-- ACTIVITY:END -->
 
 </details>
