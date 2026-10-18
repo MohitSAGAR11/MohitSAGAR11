@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-10-15` — created branch `13940/fix/lenny-unreachable-node` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-10-14` — created branch `fix-invalid-schema-revalidation` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
-- `2026-10-15` — opened PR [#13941](https://github.com/internetarchive/openlibrary/pull/13941) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-14` — merged PR [#134](https://github.com/hyperjump-io/json-schema/pull/134) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
-- `2026-10-14` — opened issue [#294](https://github.com/hyperjump-io/json-schema-errors/issues/294) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
+- `2026-10-18` — opened PR [#14007](https://github.com/internetarchive/openlibrary/pull/14007) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-10-17` — created branch `13964/refactor/dynlinks-base-url` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-10-17` — opened PR [#14002](https://github.com/internetarchive/openlibrary/pull/14002) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-10-17` — opened issue [#11](https://github.com/hyperjump-io/uri/issues/11) in [hyperjump-io/uri](https://github.com/hyperjump-io/uri)
+- `2026-10-17` — opened issue [#136](https://github.com/hyperjump-io/json-schema/issues/136) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 <!-- ACTIVITY:END -->
 
 </details>
