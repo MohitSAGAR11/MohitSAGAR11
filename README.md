@@ -196,11 +196,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-19` — opened PR [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
+- `2026-10-19` — opened PR [#14024](https://github.com/internetarchive/openlibrary/pull/14024) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-10-18` — merged PR [#13888](https://github.com/internetarchive/openlibrary/pull/13888) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-18` — opened PR [#14007](https://github.com/internetarchive/openlibrary/pull/14007) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-17` — created branch `13964/refactor/dynlinks-base-url` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-10-17` — opened PR [#14002](https://github.com/internetarchive/openlibrary/pull/14002) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-17` — opened issue [#11](https://github.com/hyperjump-io/uri/issues/11) in [hyperjump-io/uri](https://github.com/hyperjump-io/uri)
-- `2026-10-17` — opened issue [#136](https://github.com/hyperjump-io/json-schema/issues/136) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 <!-- ACTIVITY:END -->
 
 </details>
