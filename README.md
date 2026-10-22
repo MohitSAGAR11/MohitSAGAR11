@@ -62,7 +62,7 @@ CS Engineer focused on **backend architecture**, **AI/ML systems**, and **scalab
 stack:      Java · Python · Go · TypeScript · Spring Boot · Node.js · LangChain
 location:   India
 contact:    mohitsagar378@gmail.com
-status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubernetes]
+status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
 ```
 
 <br>
@@ -189,8 +189,7 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
       <img height="14" src="https://cdn.simpleicons.org/mongodb/1FA387" alt=""> MongoDB &nbsp;
       <img height="14" src="https://cdn.simpleicons.org/mysql/1FA387" alt=""> MySQL &nbsp;
       <img height="14" src="https://cdn.simpleicons.org/postgresql/1FA387" alt=""> PostgreSQL &nbsp;
-      <!-- Simple Icons has no generic vector-DB logo; swap in qdrant / milvus etc. if you name one -->
-      Vector DBs
+      <img height="14" src="https://cdn.simpleicons.org/milvus/1FA387" alt=""> Milvus
     </td>
   </tr>
   <tr>
@@ -232,7 +231,6 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP, Kubern
         <li><b>AI Agents</b> — tool use, memory, orchestration patterns</li>
         <li><b>LangGraph</b> — stateful multi-agent workflows</li>
         <li><b>MCP</b> — model context protocol for agent–tool communication</li>
-        <li><b>Kubernetes</b> — container orchestration, deployments, scaling</li>
         <li><b>Cloud Deployment</b> — AWS services, infrastructure, CI/CD pipelines</li>
         <li><b>Scalable Backends</b> — distributed systems, event-driven architecture, caching</li>
       </ul>
