@@ -60,7 +60,7 @@
 
 ## About
 
-CS Engineer focused on **backend architecture**, **AI/ML systems**, and **scalable software design**. I work across the full backend stack — from REST APIs and microservices to RAG pipelines and LLM-powered agents.
+Backend engineer who reads the spec before trusting the library. I build **APIs**, **microservices** and **RAG pipelines** in Java, Go and Python, and I contribute upstream to Internet Archive's [Open Library](https://github.com/internetarchive/openlibrary) and the [Hyperjump](https://github.com/hyperjump-io) JSON Schema tools, usually by finding a bug, filing it, then fixing it.
 
 ```yaml
 stack:      Java · Python · Go · TypeScript · Spring Boot · Node.js · LangChain
