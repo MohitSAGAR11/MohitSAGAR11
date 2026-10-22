@@ -1,9 +1,11 @@
 <!--
   ─────────────────────────────────────────────────────────────────────────────
   PROFILE README — MohitSAGAR11/MohitSAGAR11
-  Palette: a single jade accent in three luminance steps.
-    light theme  #0B7A63    dark theme  #3DD6B0    theme-neutral  #1FA387
+  Palette: a single raspberry accent in three luminance steps.
+    light theme  #C2185B    dark theme  #FF6B9A    theme-neutral  #E0457B
   Neutrals: ink #1F2328 / #E6EDF3 · muted #59636E / #8B949E
+  Badge fills use the light-theme shade in both themes: shields.io picks white text
+  for any mid-brightness colour, which is unreadable on the bright dark-theme shade.
   Search for "PLACEHOLDER" to find everything you need to fill in.
   ─────────────────────────────────────────────────────────────────────────────
 -->
@@ -11,30 +13,30 @@
 <div align="center">
 
   <!-- Hand-authored animated header. Two variants so it reads on both themes.
-       Bump ?v=2 whenever you edit the SVG — GitHub's camo proxy caches hard. -->
+       Bump ?v=3 whenever you edit the SVG — GitHub's camo proxy caches hard. -->
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=2">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=3">
     <source media="(prefers-color-scheme: light)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-light.svg?v=2">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-light.svg?v=3">
     <img width="900" alt="Mohit Sagar — Computer Science Engineer · Backend Developer · AI/ML Engineer. Building scalable systems, intelligent backends, and production-ready AI solutions."
-         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=2">
+         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=3">
   </picture>
 
   <br>
 
   <a href="mailto:mohitsagar378@gmail.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-3DD6B0?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-0B7A63?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=email">
-      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-3DD6B0?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=email">
+      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
     </picture>
   </a>
   <a href="https://github.com/MohitSAGAR11">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/MohitSAGAR11-3DD6B0?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MohitSAGAR11-0B7A63?style=flat-square&logo=github&logoColor=F6F8FA&labelColor=1F2328&label=github">
-      <img alt="GitHub — MohitSAGAR11" src="https://img.shields.io/badge/MohitSAGAR11-3DD6B0?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=F6F8FA&labelColor=1F2328&label=github">
+      <img alt="GitHub — MohitSAGAR11" src="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
     </picture>
   </a>
 
@@ -43,9 +45,9 @@
        slug in `logo=`. Keep the two-variant pattern so it stays theme-aware.
   <a href="<YOUR-LINKEDIN-URL>">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/<HANDLE>-3DD6B0?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/<HANDLE>-0B7A63?style=flat-square&logo=linkedin&logoColor=F6F8FA&labelColor=1F2328&label=linkedin">
-      <img alt="LinkedIn" src="https://img.shields.io/badge/<HANDLE>-3DD6B0?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=F6F8FA&labelColor=1F2328&label=linkedin">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
     </picture>
   </a>
   -->
@@ -75,16 +77,16 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
 <p>
   <a href="https://github.com/search?q=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&type=pullrequests">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=3DD6B0&labelColor=30363D&logo=github&logoColor=E6EDF3">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=0B7A63&labelColor=1F2328&logo=github&logoColor=F6F8FA">
-      <img alt="Merged upstream pull requests" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=3DD6B0&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=1F2328&logo=github&logoColor=F6F8FA">
+      <img alt="Merged upstream pull requests" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
     </picture>
   </a>
   <a href="https://github.com/search?q=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&type=pullrequests">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=3DD6B0&labelColor=30363D&logo=github&logoColor=E6EDF3">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=0B7A63&labelColor=1F2328&logo=github&logoColor=F6F8FA">
-      <img alt="Upstream pull requests in review" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=3DD6B0&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=1F2328&logo=github&logoColor=F6F8FA">
+      <img alt="Upstream pull requests in review" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
     </picture>
   </a>
 </p>
@@ -154,66 +156,66 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
 
 ## Tech Stack
 
-<!-- One icon set (Simple Icons), one colour (#1FA387) — legible on both themes.
+<!-- One icon set (Simple Icons), one colour (#E0457B) — legible on both themes.
      Names are plain text, so the table still reads if the icon CDN ever dies. -->
 <table>
   <tr>
     <td width="150"><b>Languages</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/openjdk/1FA387" alt=""> Java &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/python/1FA387" alt=""> Python &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/javascript/1FA387" alt=""> JavaScript &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/typescript/1FA387" alt=""> TypeScript &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/go/1FA387" alt=""> Go
+      <img height="14" src="https://cdn.simpleicons.org/openjdk/E0457B" alt=""> Java &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/python/E0457B" alt=""> Python &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/javascript/E0457B" alt=""> JavaScript &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/typescript/E0457B" alt=""> TypeScript &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/go/E0457B" alt=""> Go
     </td>
   </tr>
   <tr>
     <td><b>Backend</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/springboot/1FA387" alt=""> Spring Boot &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/nodedotjs/1FA387" alt=""> Node.js &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/express/1FA387" alt=""> Express.js &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/go/1FA387" alt=""> Go
+      <img height="14" src="https://cdn.simpleicons.org/springboot/E0457B" alt=""> Spring Boot &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/nodedotjs/E0457B" alt=""> Node.js &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/express/E0457B" alt=""> Express.js &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/go/E0457B" alt=""> Go
     </td>
   </tr>
   <tr>
     <td><b>Frontend</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/react/1FA387" alt=""> React &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/vite/1FA387" alt=""> Vite
+      <img height="14" src="https://cdn.simpleicons.org/react/E0457B" alt=""> React &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/vite/E0457B" alt=""> Vite
     </td>
   </tr>
   <tr>
     <td><b>Databases</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/mongodb/1FA387" alt=""> MongoDB &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/mysql/1FA387" alt=""> MySQL &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/postgresql/1FA387" alt=""> PostgreSQL &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/milvus/1FA387" alt=""> Milvus
+      <img height="14" src="https://cdn.simpleicons.org/mongodb/E0457B" alt=""> MongoDB &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/mysql/E0457B" alt=""> MySQL &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/postgresql/E0457B" alt=""> PostgreSQL &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/milvus/E0457B" alt=""> Milvus
     </td>
   </tr>
   <tr>
     <td><b>AI / ML</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/langchain/1FA387" alt=""> LangChain &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/openai/1FA387" alt=""> OpenAI &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/scikitlearn/1FA387" alt=""> scikit-learn &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/numpy/1FA387" alt=""> NumPy &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/pandas/1FA387" alt=""> Pandas
+      <img height="14" src="https://cdn.simpleicons.org/langchain/E0457B" alt=""> LangChain &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/openai/E0457B" alt=""> OpenAI &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/scikitlearn/E0457B" alt=""> scikit-learn &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/numpy/E0457B" alt=""> NumPy &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/pandas/E0457B" alt=""> Pandas
     </td>
   </tr>
   <tr>
     <td><b>DevOps &amp; Tools</b></td>
     <td>
-      <img height="14" src="https://cdn.simpleicons.org/docker/1FA387" alt=""> Docker &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/kubernetes/1FA387" alt=""> Kubernetes &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/prometheus/1FA387" alt=""> Prometheus &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/grafana/1FA387" alt=""> Grafana &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/amazonwebservices/1FA387" alt=""> AWS &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/linux/1FA387" alt=""> Linux &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/git/1FA387" alt=""> Git &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/github/1FA387" alt=""> GitHub &nbsp;
-      <img height="14" src="https://cdn.simpleicons.org/postman/1FA387" alt=""> Postman
+      <img height="14" src="https://cdn.simpleicons.org/docker/E0457B" alt=""> Docker &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/kubernetes/E0457B" alt=""> Kubernetes &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/prometheus/E0457B" alt=""> Prometheus &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/grafana/E0457B" alt=""> Grafana &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/amazonwebservices/E0457B" alt=""> AWS &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/linux/E0457B" alt=""> Linux &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/git/E0457B" alt=""> Git &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/github/E0457B" alt=""> GitHub &nbsp;
+      <img height="14" src="https://cdn.simpleicons.org/postman/E0457B" alt=""> Postman
     </td>
   </tr>
 </table>
@@ -261,15 +263,15 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
             Vercel, add a PAT as the PAT_1 env var) and swap the host below.
        Check status: curl -o /dev/null -w "%{http_code}" https://github-readme-stats.vercel.app/api?username=MohitSAGAR11
     <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=3DD6B0&icon_color=3DD6B0&text_color=8B949E&ring_color=3DD6B0">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=0B7A63&icon_color=0B7A63&text_color=59636E&ring_color=0B7A63">
-    <img width="400" alt="GitHub stats for MohitSAGAR11" src="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=3DD6B0&icon_color=3DD6B0&text_color=8B949E&ring_color=3DD6B0">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=FF6B9A&icon_color=FF6B9A&text_color=8B949E&ring_color=FF6B9A">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=C2185B&icon_color=C2185B&text_color=59636E&ring_color=C2185B">
+    <img width="400" alt="GitHub stats for MohitSAGAR11" src="https://github-readme-stats.vercel.app/api?username=MohitSAGAR11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=FF6B9A&icon_color=FF6B9A&text_color=8B949E&ring_color=FF6B9A">
     </picture>
   -->
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=3DD6B0&fire=3DD6B0&currStreakLabel=3DD6B0&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=D0D7DE&ring=0B7A63&fire=0B7A63&currStreakLabel=0B7A63&currStreakNum=1F2328&sideNums=1F2328&sideLabels=59636E&dates=59636E">
-    <img width="460" alt="Contribution streak for MohitSAGAR11" src="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=3DD6B0&fire=3DD6B0&currStreakLabel=3DD6B0&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=FF6B9A&fire=FF6B9A&currStreakLabel=FF6B9A&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=D0D7DE&ring=C2185B&fire=C2185B&currStreakLabel=C2185B&currStreakNum=1F2328&sideNums=1F2328&sideLabels=59636E&dates=59636E">
+    <img width="460" alt="Contribution streak for MohitSAGAR11" src="https://streak-stats.demolab.com?user=MohitSAGAR11&hide_border=true&background=00000000&border=00000000&stroke=30363D&ring=FF6B9A&fire=FF6B9A&currStreakLabel=FF6B9A&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E">
   </picture>
 
   <br><br>
@@ -299,9 +301,9 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
 <!-- PLACEHOLDER (optional) — WakaTime coding-time card. Needs a WakaTime account and
      the WAKATIME_API_KEY secret. Replace <WAKATIME-USERNAME> and uncomment.
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=3DD6B0&text_color=8B949E">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=0B7A63&text_color=59636E">
-  <img alt="WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=3DD6B0&text_color=8B949E">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=FF6B9A&text_color=8B949E">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=C2185B&text_color=59636E">
+  <img alt="WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=FF6B9A&text_color=8B949E">
 </picture>
 -->
 
