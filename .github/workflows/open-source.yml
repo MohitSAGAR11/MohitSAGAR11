@@ -1,0 +1,41 @@
+name: Refresh Open Source
+
+# Rewrites the OSS-FIXED and OSS-LIST blocks in README.md from a GitHub search
+# of upstream pull requests. Logic lives in .github/scripts/open-source.js.
+#
+# Secrets: none required. Uses the built-in GITHUB_TOKEN.
+#   Optional: a classic PAT named PROFILE_TOKEN (scope: public_repo) is picked up
+#   automatically, same as the recent-activity job.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # daily 05:00 UTC — after the recent-activity job (04:30) so their pushes don't race
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  open-source:
+    runs-on: ubuntu-latest
+    name: Update open-source blocks
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build open-source blocks
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const run = require('./.github/scripts/open-source.js');
+            await run({ github, core });
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: refresh open-source contributions [skip ci]"
+          git push
