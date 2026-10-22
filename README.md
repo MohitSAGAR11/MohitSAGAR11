@@ -3,8 +3,8 @@
   PROFILE README — MohitSAGAR11/MohitSAGAR11
   Palette: a single raspberry accent in three luminance steps.
     light theme  #C2185B    dark theme  #FF6B9A    theme-neutral  #E0457B
-  Header SVGs use a violet partner (#6E44C9 light / #C4A7FF dark); raspberry stays on
-  the $ prompt, the two cursors and the headphones to tie the header to the rest.
+  The dark header is all raspberry. The light header uses a violet partner (#6E44C9),
+  with raspberry kept on the $ prompt, the two cursors and the headphones.
   Neutrals: ink #1F2328 / #E6EDF3 · muted #59636E / #8B949E
   Badge fills use the light-theme shade in both themes: shields.io picks white text
   for any mid-brightness colour, which is unreadable on the bright dark-theme shade.
@@ -15,14 +15,14 @@
 <div align="center">
 
   <!-- Hand-authored animated header. Two variants so it reads on both themes.
-       Bump ?v=4 whenever you edit the SVG — GitHub's camo proxy caches hard. -->
+       Bump ?v=5 whenever you edit the SVG — GitHub's camo proxy caches hard. -->
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=4">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=5">
     <source media="(prefers-color-scheme: light)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-light.svg?v=4">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-light.svg?v=5">
     <img width="900" alt="Mohit Sagar — Computer Science Engineer · Backend Developer · AI/ML Engineer. Building scalable systems, intelligent backends, and production-ready AI solutions."
-         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=4">
+         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/header-dark.svg?v=5">
   </picture>
 
   <br>
