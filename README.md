@@ -131,7 +131,8 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 7 merged · 3 in review
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 7 merged · 4 in review
+  - `in review` [#14054](https://github.com/internetarchive/openlibrary/pull/14054) feat(acquisitions): carry the OPDS source publication and feed name
   - `merged` [#14024](https://github.com/internetarchive/openlibrary/pull/14024) fix(match): match authors regardless of name order
   - `in review` [#14007](https://github.com/internetarchive/openlibrary/pull/14007) feat(tags): add a dashboard for exploring tags by type
   - `in review` [#14002](https://github.com/internetarchive/openlibrary/pull/14002) Pass the base URL to dynlinks explicitly instead of setting `web.ctx.home` in `/api/books` and `/api/volumes`
