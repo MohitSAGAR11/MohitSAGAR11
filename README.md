@@ -1,10 +1,9 @@
 <!--
   ─────────────────────────────────────────────────────────────────────────────
   PROFILE README — MohitSAGAR11/MohitSAGAR11
-  Palette: a single raspberry accent in three luminance steps.
-    light theme  #C2185B    dark theme  #FF6B9A    theme-neutral  #E0457B
-  The header is an anime title card (.github/scripts/header-svg.js): all raspberry in dark;
-  in light, a violet partner (#6E44C9) on the name shadow and corners, raspberry ribbon.
+  Palette: a single amber accent in three luminance steps.
+    light theme  #B4690E    dark theme  #F0B429    theme-neutral  #C9871F
+  The header is an anime title card (.github/scripts/header-svg.js), amber in both themes.
   Neutrals: ink #1F2328 / #E6EDF3 · muted #59636E / #8B949E
   Badge fills use the light-theme shade in both themes: shields.io picks white text
   for any mid-brightness colour, which is unreadable on the bright dark-theme shade.
@@ -29,16 +28,16 @@
 
   <a href="mailto:mohitsagar378@gmail.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=email">
-      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-C2185B?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=email">
+      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
     </picture>
   </a>
   <a href="https://github.com/MohitSAGAR11">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=F6F8FA&labelColor=1F2328&label=github">
-      <img alt="GitHub — MohitSAGAR11" src="https://img.shields.io/badge/MohitSAGAR11-C2185B?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=F6F8FA&labelColor=1F2328&label=github">
+      <img alt="GitHub — MohitSAGAR11" src="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
     </picture>
   </a>
 
@@ -47,9 +46,9 @@
        slug in `logo=`. Keep the two-variant pattern so it stays theme-aware.
   <a href="<YOUR-LINKEDIN-URL>">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=F6F8FA&labelColor=1F2328&label=linkedin">
-      <img alt="LinkedIn" src="https://img.shields.io/badge/<HANDLE>-C2185B?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=F6F8FA&labelColor=1F2328&label=linkedin">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
     </picture>
   </a>
   -->
@@ -82,16 +81,16 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 <p>
   <a href="https://github.com/search?q=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&type=pullrequests">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=1F2328&logo=github&logoColor=F6F8FA">
-      <img alt="Merged upstream pull requests" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=B4690E&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=B4690E&labelColor=1F2328&logo=github&logoColor=F6F8FA">
+      <img alt="Merged upstream pull requests" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Amerged&style=flat-square&label=merged%20upstream%20PRs&color=B4690E&labelColor=30363D&logo=github&logoColor=E6EDF3">
     </picture>
   </a>
   <a href="https://github.com/search?q=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&type=pullrequests">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=1F2328&logo=github&logoColor=F6F8FA">
-      <img alt="Upstream pull requests in review" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=C2185B&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=B4690E&labelColor=30363D&logo=github&logoColor=E6EDF3">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=B4690E&labelColor=1F2328&logo=github&logoColor=F6F8FA">
+      <img alt="Upstream pull requests in review" src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3AMohitSAGAR11%20-user%3AMohitSAGAR11%20-repo%3Afirstcontributions%2Ffirst-contributions%20-repo%3ANency-Ravaliya%2Fdevops-heros%20is%3Aopen%20-is%3Adraft&style=flat-square&label=in%20review&color=B4690E&labelColor=30363D&logo=github&logoColor=E6EDF3">
     </picture>
   </a>
 </p>
@@ -353,9 +352,9 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 <!-- PLACEHOLDER (optional) — WakaTime coding-time card. Needs a WakaTime account and
      the WAKATIME_API_KEY secret. Replace <WAKATIME-USERNAME> and uncomment.
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=FF6B9A&text_color=8B949E">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=C2185B&text_color=59636E">
-  <img alt="WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=FF6B9A&text_color=8B949E">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=F0B429&text_color=8B949E">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=B4690E&text_color=59636E">
+  <img alt="WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=<WAKATIME-USERNAME>&layout=compact&hide_border=true&bg_color=00000000&title_color=F0B429&text_color=8B949E">
 </picture>
 -->
 

@@ -1,5 +1,5 @@
 // Renders the contribution scan that replaced the snake: the past year's contribution
-// calendar as a raspberry heatmap that a scanner beam re-lights column by column.
+// calendar as an amber heatmap that a scanner beam re-lights column by column.
 // Writes one SVG per theme. Called by .github/workflows/contribution-scan.yml.
 //
 // Motion is plain CSS keyframes inside the SVG — GitHub serves it through <img>, so
@@ -13,13 +13,13 @@ const USER = 'MohitSAGAR11';
 const THEMES = {
   dark: {
     file: 'assets/contrib-dark.svg',
-    ink: '#E6EDF3', muted: '#8B949E', accent: '#FF6B9A', flash: '#FFD6E3', wire: '#30363D',
-    levels: ['#161B22', '#4D1A30', '#85234B', '#C93A6E', '#FF6B9A'],
+    ink: '#E6EDF3', muted: '#8B949E', accent: '#F0B429', flash: '#FDE7B5', wire: '#30363D',
+    levels: ['#161B22', '#4A3511', '#7A5514', '#B8821D', '#F0B429'],
   },
   light: {
     file: 'assets/contrib-light.svg',
-    ink: '#1F2328', muted: '#59636E', accent: '#C2185B', flash: '#FF3D7F', wire: '#D0D7DE',
-    levels: ['#EFF2F5', '#F8CADB', '#EE8DB0', '#DA4A80', '#C2185B'],
+    ink: '#1F2328', muted: '#59636E', accent: '#B4690E', flash: '#F5A623', wire: '#D0D7DE',
+    levels: ['#EFF2F5', '#FBE3B0', '#F2C066', '#D4921F', '#B4690E'],
   },
 };
 

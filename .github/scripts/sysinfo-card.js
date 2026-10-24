@@ -10,13 +10,13 @@ const FONT = 'ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono
 const THEMES = {
   dark: {
     card: '#161B22', edge: '#30363D', ink: '#E6EDF3', muted: '#8B949E',
-    key: '#FF6B9A', logo: '#FF6B9A', shadow: '#5C1F38', prompt: '#FF6B9A',
-    swatches: ['#3A1424', '#5C1F38', '#85234B', '#B02E5F', '#E0457B', '#FF6B9A', '#FF9DBB', '#FFD6E3'],
+    key: '#F0B429', logo: '#F0B429', shadow: '#5C4310', prompt: '#F0B429',
+    swatches: ['#3A2A0D', '#5C4310', '#7A5514', '#A6731A', '#C9871F', '#F0B429', '#F7CC6B', '#FDE7B5'],
   },
   light: {
     card: '#F6F8FA', edge: '#D0D7DE', ink: '#1F2328', muted: '#59636E',
-    key: '#6E44C9', logo: '#6E44C9', shadow: '#F8BBD0', prompt: '#C2185B',
-    swatches: ['#FCE4EC', '#F8BBD0', '#F48FB1', '#EC407A', '#D81B60', '#C2185B', '#AD1457', '#880E4F'],
+    key: '#B4690E', logo: '#B4690E', shadow: '#F5D9A0', prompt: '#B4690E',
+    swatches: ['#FFF4DC', '#F5D9A0', '#F5CC74', '#E9A93A', '#C9871F', '#B4690E', '#965609', '#6E3F06'],
   },
 };
 
@@ -72,7 +72,7 @@ function swatches(theme) {
 function svg(theme) {
   const height = ROW_Y + ROWS.length * ROW_STEP + 40;
   const headerY = ROW_Y - 36;
-  const cmd = 'neofetch --theme raspberry';
+  const cmd = 'neofetch --theme amber';
   const cmdWidth = Math.ceil(cmd.length * 8.45);
   const end = (T_ROWS + 0.22 + ROWS.length * ROW_GAP + 0.6).toFixed(2);
   const bottomY = height - 22;

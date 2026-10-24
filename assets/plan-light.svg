@@ -16,33 +16,33 @@
   </defs>
 
   <rect x="1" y="1" width="898" height="336" rx="12" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
-  <circle cx="24" cy="19" r="5.5" fill="#C2185B"/>
+  <circle cx="24" cy="19" r="5.5" fill="#B4690E"/>
   <circle cx="42" cy="19" r="5.5" fill="#D0D7DE"/>
   <circle cx="60" cy="19" r="5.5" fill="#D0D7DE"/>
   <text x="450" y="23" font-size="12" text-anchor="middle" fill="#59636E">mohit@sagar: ~/.plan</text>
   <line x1="1" y1="37" x2="899" y2="37" stroke="#D0D7DE" stroke-width="1"/>
 
-  <text x="28" y="62" font-weight="700" fill="#C2185B">$</text>
+  <text x="28" y="62" font-weight="700" fill="#B4690E">$</text>
   <g mask="url(#typed)"><text x="44" y="62" font-size="14" fill="#1F2328">cat ~/.plan</text></g>
 
   <line x1="452" y1="86" x2="452" y2="282" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
-  <text class="in" style="animation-delay:0.90s" x="28" y="100" font-weight="700" fill="#6E44C9">[building]</text>
-  <text class="in" style="animation-delay:0.99s" x="28" y="124"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">Open Library import fixes — MARC, OPDS</tspan></text>
-  <text class="in" style="animation-delay:1.08s" x="28" y="146"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">JSON Schema spec-compliance fixes</tspan></text>
-  <text class="in" style="animation-delay:1.17s" x="28" y="168"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">CodeFang — a coding agent that asks first</tspan></text>
-  <text class="in" style="animation-delay:1.26s" x="28" y="208" font-weight="700" fill="#6E44C9">[into]</text>
-  <text class="in" style="animation-delay:1.35s" x="28" y="232"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">system design · distributed systems</tspan></text>
-  <text class="in" style="animation-delay:1.44s" x="28" y="254"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">RAG &amp; LLM agents · vector search</tspan></text>
-  <text class="in" style="animation-delay:1.53s" x="28" y="276"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">data structures &amp; algorithms</tspan></text>
-  <text class="in" style="animation-delay:1.62s" x="474" y="100" font-weight="700" fill="#6E44C9">[learning]</text>
-  <text class="in" style="animation-delay:1.71s" x="474" y="124"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">LangGraph — stateful multi-agent flows</tspan></text>
-  <text class="in" style="animation-delay:1.80s" x="474" y="146"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">MCP — giving agents tools over a protocol</tspan></text>
-  <text class="in" style="animation-delay:1.89s" x="474" y="168"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">advanced RAG — hybrid search, rerank, eval</tspan></text>
-  <text class="in" style="animation-delay:1.98s" x="474" y="190"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">AI agents — memory and orchestration</tspan></text>
-  <text class="in" style="animation-delay:2.07s" x="474" y="212"><tspan fill="#C2185B">›</tspan><tspan fill="#1F2328" dx="8">cloud &amp; CI/CD — AWS, Terraform, Actions</tspan></text>
+  <text class="in" style="animation-delay:0.90s" x="28" y="100" font-weight="700" fill="#B4690E">[building]</text>
+  <text class="in" style="animation-delay:0.99s" x="28" y="124"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">Open Library import fixes — MARC, OPDS</tspan></text>
+  <text class="in" style="animation-delay:1.08s" x="28" y="146"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">JSON Schema spec-compliance fixes</tspan></text>
+  <text class="in" style="animation-delay:1.17s" x="28" y="168"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">CodeFang — a coding agent that asks first</tspan></text>
+  <text class="in" style="animation-delay:1.26s" x="28" y="208" font-weight="700" fill="#B4690E">[into]</text>
+  <text class="in" style="animation-delay:1.35s" x="28" y="232"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">system design · distributed systems</tspan></text>
+  <text class="in" style="animation-delay:1.44s" x="28" y="254"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">RAG &amp; LLM agents · vector search</tspan></text>
+  <text class="in" style="animation-delay:1.53s" x="28" y="276"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">data structures &amp; algorithms</tspan></text>
+  <text class="in" style="animation-delay:1.62s" x="474" y="100" font-weight="700" fill="#B4690E">[learning]</text>
+  <text class="in" style="animation-delay:1.71s" x="474" y="124"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">LangGraph — stateful multi-agent flows</tspan></text>
+  <text class="in" style="animation-delay:1.80s" x="474" y="146"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">MCP — giving agents tools over a protocol</tspan></text>
+  <text class="in" style="animation-delay:1.89s" x="474" y="168"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">advanced RAG — hybrid search, rerank, eval</tspan></text>
+  <text class="in" style="animation-delay:1.98s" x="474" y="190"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">AI agents — memory and orchestration</tspan></text>
+  <text class="in" style="animation-delay:2.07s" x="474" y="212"><tspan fill="#B4690E">›</tspan><tspan fill="#1F2328" dx="8">cloud &amp; CI/CD — AWS, Terraform, Actions</tspan></text>
 
   <g class="late">
-    <text x="28" y="316" font-weight="700" fill="#C2185B">$</text>
-    <rect class="blink" x="44" y="303" width="8" height="16" fill="#C2185B"/>
+    <text x="28" y="316" font-weight="700" fill="#B4690E">$</text>
+    <rect class="blink" x="44" y="303" width="8" height="16" fill="#B4690E"/>
   </g>
 </svg>

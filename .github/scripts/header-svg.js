@@ -16,11 +16,10 @@ const out = process.argv[2] || 'assets';
 const ROLES = ['SOFTWARE DEVELOPER', 'OPEN SOURCE CONTRIBUTOR', 'BACKEND ENGINEER', 'AI / ML ENGINEER'];
 const NAME = 'MOHIT SAGAR';
 
-// Dark is all raspberry. Light pairs violet (shadow, corners) with a raspberry ribbon,
-// as the old header did.
+// One amber accent: the bright shade in dark, the deep one in light.
 const THEMES = {
-  dark: { ink: '#E6EDF3', lines: '#8B949E', shadow: '#FF6B9A', ribbon: '#FF6B9A', ribbonText: '#0D1117', corner: '#FF6B9A', lineOpacity: 0.4, flash: '#FFFFFF', slash: '#FFFFFF' },
-  light: { ink: '#1F2328', lines: '#59636E', shadow: '#6E44C9', ribbon: '#C2185B', ribbonText: '#FFFFFF', corner: '#6E44C9', lineOpacity: 0.32, flash: '#FFFFFF', slash: '#FFE3EE' },
+  dark: { ink: '#E6EDF3', lines: '#8B949E', shadow: '#F0B429', ribbon: '#F0B429', ribbonText: '#0D1117', corner: '#F0B429', lineOpacity: 0.4, flash: '#FFFFFF', slash: '#FFFFFF' },
+  light: { ink: '#1F2328', lines: '#59636E', shadow: '#B4690E', ribbon: '#B4690E', ribbonText: '#FFFFFF', corner: '#B4690E', lineOpacity: 0.32, flash: '#FFFFFF', slash: '#FFF1D6' },
 };
 
 const WIDTH = 900;

@@ -10,11 +10,11 @@ const FONT = 'ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono
 const THEMES = {
   dark: {
     ink: '#E6EDF3', muted: '#8B949E', edge: '#30363D', card: '#161B22',
-    label: '#FF6B9A', packet: '#FF6B9A', flash: '#FFD6E3', prompt: '#FF6B9A',
+    label: '#F0B429', packet: '#F0B429', flash: '#FDE7B5', prompt: '#F0B429',
   },
   light: {
     ink: '#1F2328', muted: '#59636E', edge: '#D0D7DE', card: '#F6F8FA',
-    label: '#6E44C9', packet: '#C2185B', flash: '#FF3D7F', prompt: '#C2185B',
+    label: '#B4690E', packet: '#B4690E', flash: '#F5A623', prompt: '#B4690E',
   },
 };
 

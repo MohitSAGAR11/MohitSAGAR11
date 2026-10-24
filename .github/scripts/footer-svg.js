@@ -12,11 +12,10 @@ const path = require('path');
 const out = process.argv[2] || 'assets';
 const FONT = 'ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace';
 
-// Matches the header: dark is all raspberry; light keeps raspberry on the prompt and
-// cursor and gives the tick to violet.
+// Matches the header: one amber accent, the bright shade in dark and the deep one in light.
 const THEMES = {
-  dark: { ink: '#E6EDF3', muted: '#8B949E', prompt: '#FF6B9A', tick: '#FF6B9A' },
-  light: { ink: '#1F2328', muted: '#59636E', prompt: '#C2185B', tick: '#6E44C9' },
+  dark: { ink: '#E6EDF3', muted: '#8B949E', prompt: '#F0B429', tick: '#F0B429' },
+  light: { ink: '#1F2328', muted: '#59636E', prompt: '#B4690E', tick: '#B4690E' },
 };
 
 const WIDTH = 900;

@@ -16,17 +16,17 @@
   </defs>
 
   <rect x="1" y="1" width="438" height="154" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
-  <text x="20" y="28" font-size="12.5"><tspan fill="#59636E">openlibrary</tspan><tspan fill="#C2185B" font-weight="700" dx="6">#14024</tspan></text>
+  <text x="20" y="28" font-size="12.5"><tspan fill="#59636E">openlibrary</tspan><tspan fill="#B4690E" font-weight="700" dx="6">#14024</tspan></text>
   <text x="20" y="52" font-size="12.5" font-weight="700" fill="#1F2328">match authors regardless of name order</text>
 
   <rect x="12" y="72" width="416" height="66" rx="6" fill="#D0D7DE" fill-opacity="0.35"/>
   <text x="26" y="96" font-size="12" font-weight="700" fill="#59636E">-</text>
   <g mask="url(#before)"><text x="44" y="96" font-size="12" fill="#59636E">&quot;Sagar, Mohit&quot; ≠ &quot;Mohit Sagar&quot; → duplicate edition</text></g>
-  <text x="26" y="124" font-size="12" font-weight="700" fill="#C2185B">+</text>
+  <text x="26" y="124" font-size="12" font-weight="700" fill="#B4690E">+</text>
   <g mask="url(#after)"><text x="44" y="124" font-size="12" fill="#1F2328">compare both name orders → existing edition reused</text></g>
 
   <g class="pop">
-    <rect x="349.2" y="12" width="70.8" height="22" rx="11" fill="none" stroke="#C2185B" stroke-width="1.5"/>
-    <text x="384.6" y="27" font-size="11" font-weight="700" text-anchor="middle" fill="#C2185B">merged ✓</text>
+    <rect x="349.2" y="12" width="70.8" height="22" rx="11" fill="none" stroke="#B4690E" stroke-width="1.5"/>
+    <text x="384.6" y="27" font-size="11" font-weight="700" text-anchor="middle" fill="#B4690E">merged ✓</text>
   </g>
 </svg>
