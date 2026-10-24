@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="900" height="46" role="img" aria-label="Java · design patterns — Rate_Limiter: algorithm-agnostic rate-limiting proxy">
+  <title>Java · design patterns — Rate_Limiter: algorithm-agnostic rate-limiting proxy</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .in  { opacity: 0; animation: in .4s cubic-bezier(.2,.7,.2,1) both; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) both; transform-box: fill-box; transform-origin: center; }
+    @keyframes in  { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .in, .pop { animation: none; opacity: 1; } }
+  </style>
+  
+  <text class="pop" style="animation-delay:1.19s" x="40" y="21" font-size="13.5" font-weight="700" fill="#FF6B9A">✓</text>
+  <g class="in" style="animation-delay:0.49s">
+    <text x="62" y="21" font-size="13.5" font-weight="700" fill="#E6EDF3">Java · design patterns</text>
+    <text x="62" y="38" font-size="11" fill="#8B949E">algorithm-agnostic rate-limiting proxy</text>
+  </g>
+  <defs><mask id="dots" maskUnits="userSpaceOnUse"><rect x="254.2" y="13" width="0" height="8" fill="#fff">
+    <animate attributeName="width" from="0" to="466.59999999999997" begin="0.64s" dur="0.5s" fill="freeze"/>
+  </rect></mask></defs>
+  <line mask="url(#dots)" x1="254.2" y1="17" x2="720.8" y2="17" stroke="#8B949E" stroke-width="2" stroke-linecap="round" stroke-dasharray="0 7" opacity="0.7"/>
+  <g class="in" style="animation-delay:1.04s">
+    <text x="832" y="21" font-size="13.5" font-weight="700" text-anchor="end" fill="#FF6B9A">Rate_Limiter</text>
+    <text x="840" y="21" font-size="13.5" fill="#8B949E">↗</text>
+  </g>
+</svg>

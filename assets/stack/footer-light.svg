@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 66" width="900" height="66" role="img" aria-label="Total: 11 claims, 11 receipts. Pending, no public repo yet: Grafana">
+  <title>Total: 11 claims, 11 receipts. Pending, no public repo yet: Grafana</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .in  { opacity: 0; animation: in .4s cubic-bezier(.2,.7,.2,1) both; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) both; transform-box: fill-box; transform-origin: center; }
+    @keyframes in  { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .in, .pop { animation: none; opacity: 1; } }
+  </style>
+  
+  <line x1="40" y1="8" x2="860" y2="8" stroke="#D0D7DE" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <g class="in" style="animation-delay:2.49s">
+    <text x="40" y="32" font-size="13.5" font-weight="700" fill="#1F2328">TOTAL</text>
+    <text x="860" y="32" font-size="13.5" text-anchor="end" fill="#59636E"><tspan fill="#C2185B" font-weight="700">11</tspan> claims · <tspan fill="#C2185B" font-weight="700">11</tspan> receipts</text>
+    <text x="40" y="54" font-size="11" fill="#59636E">pending · Grafana — no public repo yet</text>
+  </g>
+</svg>

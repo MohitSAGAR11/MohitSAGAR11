@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="900" height="46" role="img" aria-label="RAG · LangChain · Pinecone — Notebook-LM: query expansion, LLM rerank, grounded answers">
+  <title>RAG · LangChain · Pinecone — Notebook-LM: query expansion, LLM rerank, grounded answers</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .in  { opacity: 0; animation: in .4s cubic-bezier(.2,.7,.2,1) both; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) both; transform-box: fill-box; transform-origin: center; }
+    @keyframes in  { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .in, .pop { animation: none; opacity: 1; } }
+  </style>
+  
+  <text class="pop" style="animation-delay:1.89s" x="40" y="21" font-size="13.5" font-weight="700" fill="#C2185B">✓</text>
+  <g class="in" style="animation-delay:1.19s">
+    <text x="62" y="21" font-size="13.5" font-weight="700" fill="#1F2328">RAG · LangChain · Pinecone</text>
+    <text x="62" y="38" font-size="11" fill="#59636E">query expansion, LLM rerank, grounded answers</text>
+  </g>
+  <defs><mask id="dots" maskUnits="userSpaceOnUse"><rect x="286.6" y="13" width="0" height="8" fill="#fff">
+    <animate attributeName="width" from="0" to="442.29999999999995" begin="1.3399999999999999s" dur="0.5s" fill="freeze"/>
+  </rect></mask></defs>
+  <line mask="url(#dots)" x1="286.6" y1="17" x2="728.9" y2="17" stroke="#59636E" stroke-width="2" stroke-linecap="round" stroke-dasharray="0 7" opacity="0.7"/>
+  <g class="in" style="animation-delay:1.74s">
+    <text x="832" y="21" font-size="13.5" font-weight="700" text-anchor="end" fill="#C2185B">Notebook-LM</text>
+    <text x="840" y="21" font-size="13.5" fill="#59636E">↗</text>
+  </g>
+</svg>

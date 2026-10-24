@@ -24,7 +24,7 @@ const ROWS = [
   ['role', 'Backend engineer · AI/ML · system design'],
   ['stack', 'Java · Python · Go · TypeScript'],
   ['backend', 'Spring Boot · Node.js · Express · microservices'],
-  ['ai', 'LangChain · RAG pipelines · Milvus · OpenAI'],
+  ['ai', 'LangChain · RAG pipelines · Pinecone · OpenAI'],
   ['infra', 'Docker · Kubernetes · Prometheus · Grafana · AWS'],
   ['oss', 'Open Library · Hyperjump JSON Schema'],
   ['learning', 'LangGraph · AI agents · MCP · advanced RAG'],

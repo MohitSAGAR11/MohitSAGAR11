@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="900" height="56" role="img" aria-label="Stack, with receipts: every claim links to code">
+  <title>Stack, with receipts: every claim links to code</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .in  { opacity: 0; animation: in .4s cubic-bezier(.2,.7,.2,1) both; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) both; transform-box: fill-box; transform-origin: center; }
+    @keyframes in  { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .in, .pop { animation: none; opacity: 1; } }
+  </style>
+  
+  <defs><mask id="typed" maskUnits="userSpaceOnUse"><rect x="62" y="12" width="0" height="26" fill="#fff">
+    <animate attributeName="width" from="0" to="278" begin="0.05s" dur="0.6s" fill="freeze"/>
+  </rect></mask></defs>
+  <text x="40" y="30" font-size="14" font-weight="700" fill="#C2185B">$</text>
+  <g mask="url(#typed)"><text x="62" y="30" font-size="14" fill="#1F2328">grep -rl --receipts stack ~/repos</text></g>
+  <text x="860" y="30" font-size="11" text-anchor="end" fill="#59636E">every claim links to code</text>
+  <line x1="40" y1="48" x2="860" y2="48" stroke="#D0D7DE" stroke-width="1.5" stroke-dasharray="6 5"/>
+</svg>
