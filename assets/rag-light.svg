@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 286" width="900" height="286" role="img" aria-label="Notebook-LM RAG pipeline. Indexing: ingest, chunk (800 characters, 150 overlap), embed with all-MiniLM-L6-v2, store in Pinecone. Querying: ask, expand to 3 queries, search top 5 for each, LLM rerank, grounded answer.">
+  <title>Notebook-LM — advanced RAG pipeline</title>
+  <style>text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }</style>
+  <defs>
+    <marker id="head" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D0D7DE"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="32" font-size="14"><tspan fill="#C2185B" font-weight="700">$</tspan><tspan fill="#1F2328" dx="8">notebook-lm --trace</tspan></text>
+  <text x="860" y="32" font-size="11" fill="#59636E" text-anchor="end">Express · LangChain · Pinecone · OpenRouter</text>
+
+  <text x="40" y="70" font-size="10" letter-spacing="2" fill="#59636E">INDEX</text>
+  <text x="40" y="196" font-size="10" letter-spacing="2" fill="#59636E">QUERY</text>
+
+  <line x1="205" y1="107" x2="244" y2="107" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="415" y1="107" x2="454" y2="107" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="625" y1="107" x2="664" y2="107" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="185" y1="233" x2="204" y2="233" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="355" y1="233" x2="374" y2="233" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="525" y1="233" x2="544" y2="233" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <line x1="695" y1="233" x2="714" y2="233" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#head)"/>
+  <path d="M765,139 V170 H450 V200" fill="none" stroke="#D0D7DE" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#head)"/>
+
+  <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#C2185B">
+    <animateMotion path="M120,107 H765" dur="3s" begin="-0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#C2185B">
+    <animateMotion path="M120,107 H765" dur="3s" begin="-1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#C2185B">
+    <animateMotion path="M120,107 H765" dur="3s" begin="-2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M110,233 H280" keyPoints="0;0;1;1" keyTimes="0;0;0.15;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0;0.15" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M280,223 H450" keyPoints="0;0;1;1" keyTimes="0;0.15;0.32;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.32" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M280,233 H450" keyPoints="0;0;1;1" keyTimes="0;0.15;0.32;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.32" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M280,243 H450" keyPoints="0;0;1;1" keyTimes="0;0.15;0.32;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.32" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M760,107 V170 H445 V233" keyPoints="0;0;1;1" keyTimes="0;0.3;0.5;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;0.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M770,107 V170 H455 V233" keyPoints="0;0;1;1" keyTimes="0;0.3;0.5;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;0.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M450,223 H620" keyPoints="0;0;1;1" keyTimes="0;0.5;0.68;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.68" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M450,233 H620" keyPoints="0;0;1;1" keyTimes="0;0.5;0.68;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.68" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-3.5" y="-3.5" width="7" height="7" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M450,243 H620" keyPoints="0;0;1;1" keyTimes="0;0.5;0.68;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.68" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#C2185B" opacity="0">
+    <animateMotion path="M620,233 H790" keyPoints="0;0;1;1" keyTimes="0;0.74;0.9;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.74;0.9" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g>
+    <rect x="40" y="80" width="160" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="52" y="103" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">01</tspan><tspan fill="#1F2328" dx="7">ingest</tspan></text>
+    <text x="52" y="122" font-size="10.5" fill="#59636E">PDF / TXT by page</text>
+  </g>
+  <g>
+    <rect x="250" y="80" width="160" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="262" y="103" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">02</tspan><tspan fill="#1F2328" dx="7">chunk</tspan></text>
+    <text x="262" y="122" font-size="10.5" fill="#59636E">800 ch · 150 overlap</text>
+  </g>
+  <g>
+    <rect x="460" y="80" width="160" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="472" y="103" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">03</tspan><tspan fill="#1F2328" dx="7">embed</tspan></text>
+    <text x="472" y="122" font-size="10.5" fill="#59636E">all-MiniLM-L6-v2</text>
+  </g>
+  <g>
+    <rect x="670" y="80" width="190" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"><animate attributeName="stroke" values="#D0D7DE;#C2185B;#D0D7DE" keyTimes="0;0.28;0.36" calcMode="discrete" dur="6s" repeatCount="indefinite"/></rect>
+    <text x="682" y="103" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">04</tspan><tspan fill="#1F2328" dx="7">pinecone</tspan></text>
+    <text x="682" y="122" font-size="10.5" fill="#59636E">namespace per document</text>
+  </g>
+  <g>
+    <rect x="40" y="206" width="140" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="52" y="229" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">05</tspan><tspan fill="#1F2328" dx="7">ask</tspan></text>
+    <text x="52" y="248" font-size="10.5" fill="#59636E">question + history</text>
+  </g>
+  <g>
+    <rect x="210" y="206" width="140" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="222" y="229" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">06</tspan><tspan fill="#1F2328" dx="7">expand</tspan></text>
+    <text x="222" y="248" font-size="10.5" fill="#59636E">1 → 3 queries</text>
+  </g>
+  <g>
+    <rect x="380" y="206" width="140" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"></rect>
+    <text x="392" y="229" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">07</tspan><tspan fill="#1F2328" dx="7">search</tspan></text>
+    <text x="392" y="248" font-size="10.5" fill="#59636E">top-5 × 3, dedupe</text>
+  </g>
+  <g>
+    <rect x="550" y="206" width="140" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"><animate attributeName="stroke" values="#D0D7DE;#C2185B;#D0D7DE" keyTimes="0;0.68;0.76" calcMode="discrete" dur="6s" repeatCount="indefinite"/></rect>
+    <text x="562" y="229" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">08</tspan><tspan fill="#1F2328" dx="7">rerank</tspan></text>
+    <text x="562" y="248" font-size="10.5" fill="#59636E">LLM scores 0–10</text>
+  </g>
+  <g>
+    <rect x="720" y="206" width="140" height="54" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"><animate attributeName="stroke" values="#D0D7DE;#C2185B;#D0D7DE" keyTimes="0;0.9;0.98" calcMode="discrete" dur="6s" repeatCount="indefinite"/></rect>
+    <text x="732" y="229" font-size="12.5" font-weight="700"><tspan fill="#6E44C9">09</tspan><tspan fill="#1F2328" dx="7">answer</tspan></text>
+    <text x="732" y="248" font-size="10.5" fill="#59636E">grounded · t=0.1</text>
+  </g>
+</svg>

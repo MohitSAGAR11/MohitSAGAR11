@@ -160,6 +160,24 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 
 <br>
 
+## Build Spotlight
+
+<!-- Animated pipeline diagram. Stages and labels live in .github/scripts/rag-diagram.js —
+     edit there and re-run it rather than editing the two SVGs by hand. -->
+<p align="center">
+  <a href="https://github.com/MohitSAGAR11/Notebook-LM">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/rag-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/rag-light.svg">
+      <img width="900" alt="Notebook-LM RAG pipeline. Indexing: ingest, chunk (800 characters, 150 overlap), embed with all-MiniLM-L6-v2, store in Pinecone. Querying: ask, expand to 3 queries, search top 5 for each, LLM rerank, grounded answer." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/rag-dark.svg">
+    </picture>
+  </a>
+</p>
+
+**[Notebook-LM](https://github.com/MohitSAGAR11/Notebook-LM)** — upload a document and chat with it. Each question is expanded into three, searched in parallel, reranked by an LLM, and answered only from the top five chunks. [Live demo](https://rag-notebook-lm.netlify.app/)
+
+<br>
+
 ## Tech Stack
 
 <!-- One icon set (Simple Icons), one colour (#E0457B) — legible on both themes.
