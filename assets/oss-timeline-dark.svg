@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 244" width="900" height="244" role="img" aria-label="Upstream pull requests as a git graph: 9 merged, 6 in review. Latest: openlibrary #13751 merged, openlibrary #13718 merged, openlibrary #13880 merged, json-schema #134 merged, openlibrary #13941 in review, openlibrary #14002 in review, openlibrary #14007 in review, openlibrary #13888 merged, json-schema-errors #296 in review, openlibrary #14024 merged, uri #12 in review, openlibrary #14054 in review.">
+  <title>Upstream pull requests — git log --graph</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw .5s ease-out forwards; }
+    .fade, .pop { opacity: 0; animation: fade .35s ease-out forwards; }
+    .pop { transform-box: fill-box; transform-origin: center; animation-name: pop; }
+    .main { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.4s ease-out .1s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pop  { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .draw, .main { animation: none; stroke-dashoffset: 0; }
+      .fade, .pop { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <text x="40" y="32" font-size="14"><tspan fill="#FF6B9A" font-weight="700">$</tspan><tspan fill="#E6EDF3" dx="8">git log --graph --author=MohitSAGAR11 upstream</tspan></text>
+  <text x="860" y="32" font-size="11" text-anchor="end" fill="#8B949E"><tspan fill="#FF6B9A" font-weight="700">9</tspan> merged · <tspan fill="#FF6B9A" font-weight="700">6</tspan> in review</text>
+
+  <path class="main" pathLength="1" d="M40,142 H834" stroke="#30363D" stroke-width="2" stroke-linecap="round"/>
+  <text x="860" y="146" font-size="11" font-weight="700" text-anchor="end" fill="#FF6B9A">HEAD</text>
+
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:0.50s" d="M48,142 Q48,96 74,96 Q100,96 100,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:0.50s" cx="74" cy="96" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:0.50s">
+      <text x="74" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#13751<tspan font-weight="400" fill="#8B949E"> · Oct 5</tspan></text>
+      <text x="74" y="64" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:0.63s" d="M114.54545454545456,142 Q114.54545454545456,188 140.54545454545456,188 Q166.54545454545456,188 166.54545454545456,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:0.63s" cx="140.54545454545456" cy="188" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:0.63s">
+      <text x="140.54545454545456" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#13718<tspan font-weight="400" fill="#8B949E"> · Oct 7</tspan></text>
+      <text x="140.54545454545456" y="224" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:0.76s" d="M181.0909090909091,142 Q181.0909090909091,96 207.0909090909091,96 Q233.0909090909091,96 233.0909090909091,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:0.76s" cx="207.0909090909091" cy="96" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:0.76s">
+      <text x="207.0909090909091" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#13880<tspan font-weight="400" fill="#8B949E"> · Oct 13</tspan></text>
+      <text x="207.0909090909091" y="64" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:0.89s" d="M247.63636363636363,142 Q247.63636363636363,188 273.6363636363636,188 Q299.6363636363636,188 299.6363636363636,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:0.89s" cx="273.6363636363636" cy="188" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:0.89s">
+      <text x="273.6363636363636" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#134<tspan font-weight="400" fill="#8B949E"> · Oct 14</tspan></text>
+      <text x="273.6363636363636" y="224" font-size="10" text-anchor="middle" fill="#8B949E">json-schema</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.02s" d="M314.1818181818182,142 Q314.1818181818182,96 340.1818181818182,96" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="340.1818181818182" cy="96" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.02s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.02s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.02s" cx="340.1818181818182" cy="96" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.02s">
+      <text x="340.1818181818182" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#13941<tspan font-weight="400" fill="#8B949E"> · Oct 15</tspan></text>
+      <text x="340.1818181818182" y="64" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.15s" d="M380.72727272727275,142 Q380.72727272727275,188 406.72727272727275,188" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="406.72727272727275" cy="188" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.15s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.15s" cx="406.72727272727275" cy="188" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.15s">
+      <text x="406.72727272727275" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#14002<tspan font-weight="400" fill="#8B949E"> · Oct 17</tspan></text>
+      <text x="406.72727272727275" y="224" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.28s" d="M447.27272727272725,142 Q447.27272727272725,96 473.27272727272725,96" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="473.27272727272725" cy="96" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.28s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.28s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.28s" cx="473.27272727272725" cy="96" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.28s">
+      <text x="473.27272727272725" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#14007<tspan font-weight="400" fill="#8B949E"> · Oct 18</tspan></text>
+      <text x="473.27272727272725" y="64" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:1.41s" d="M513.8181818181818,142 Q513.8181818181818,188 539.8181818181818,188 Q565.8181818181818,188 565.8181818181818,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:1.41s" cx="539.8181818181818" cy="188" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:1.41s">
+      <text x="539.8181818181818" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#13888<tspan font-weight="400" fill="#8B949E"> · Oct 18</tspan></text>
+      <text x="539.8181818181818" y="224" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.54s" d="M580.3636363636364,142 Q580.3636363636364,96 606.3636363636364,96" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="606.3636363636364" cy="96" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.54s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.54s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.54s" cx="606.3636363636364" cy="96" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.54s">
+      <text x="606.3636363636364" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#296<tspan font-weight="400" fill="#8B949E"> · Oct 19</tspan></text>
+      <text x="606.3636363636364" y="64" font-size="10" text-anchor="middle" fill="#8B949E">json-schema-errors</text>
+    </g>
+  </g>
+  <g>
+    <path class="draw" pathLength="1" style="animation-delay:1.67s" d="M646.9090909090909,142 Q646.9090909090909,188 672.9090909090909,188 Q698.9090909090909,188 698.9090909090909,142" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pop" style="animation-delay:1.67s" cx="672.9090909090909" cy="188" r="5.5" fill="#FF6B9A"/>
+    <g class="fade" style="animation-delay:1.67s">
+      <text x="672.9090909090909" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#14024<tspan font-weight="400" fill="#8B949E"> · Oct 21</tspan></text>
+      <text x="672.9090909090909" y="224" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.80s" d="M713.4545454545455,142 Q713.4545454545455,96 739.4545454545455,96" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="739.4545454545455" cy="96" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.80s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.80s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.80s" cx="739.4545454545455" cy="96" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.80s">
+      <text x="739.4545454545455" y="78" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#12<tspan font-weight="400" fill="#8B949E"> · Oct 22</tspan></text>
+      <text x="739.4545454545455" y="64" font-size="10" text-anchor="middle" fill="#8B949E">uri</text>
+    </g>
+  </g>
+  <g>
+    <path class="fade" stroke-dasharray="3 3" style="animation-delay:1.93s" d="M780,142 Q780,188 806,188" fill="none" stroke="#FF6B9A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="806" cy="188" r="5.5" fill="none" stroke="#FF6B9A" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="5.5;13" dur="2s" begin="1.93s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2s" begin="1.93s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="pop" style="animation-delay:1.93s" cx="806" cy="188" r="5.5" fill="#161B22" stroke="#FF6B9A" stroke-width="2"/>
+    <g class="fade" style="animation-delay:1.93s">
+      <text x="806" y="210" font-size="11" font-weight="700" text-anchor="middle" fill="#E6EDF3">#14054<tspan font-weight="400" fill="#8B949E"> · Oct 22</tspan></text>
+      <text x="806" y="224" font-size="10" text-anchor="middle" fill="#8B949E">openlibrary</text>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 name: Refresh Open Source
 
-# Rewrites the OSS-FIXED and OSS-LIST blocks in README.md from a GitHub search
+# Rewrites the OSS-FIXED and OSS-LIST blocks in README.md, and redraws the PR
+# timeline SVGs, from a GitHub search
 # of upstream pull requests. Logic lives in .github/scripts/open-source.js.
 #
 # Secrets: none required. Uses the built-in GITHUB_TOKEN.
@@ -40,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/oss-timeline-dark.svg assets/oss-timeline-light.svg
           git diff --cached --quiet || git commit -m "chore: refresh open-source contributions [skip ci]"
           git pull --rebase --quiet && git push   # another README job may have pushed first

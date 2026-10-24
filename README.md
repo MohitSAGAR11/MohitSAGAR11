@@ -113,6 +113,15 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   </tr>
 </table>
 
+<!-- Latest upstream PRs as a git graph — redrawn daily by .github/workflows/open-source.yml -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-timeline-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-timeline-light.svg">
+    <img width="900" alt="Latest upstream pull requests drawn as a git graph: merged PRs branch off and merge back, PRs in review stay open" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-timeline-dark.svg">
+  </picture>
+</p>
+
 **Highlights**
 
 - **Open Library [#14024](https://github.com/internetarchive/openlibrary/pull/14024)** — MARC stores names as "Last, First"; author matching now compares both orders, so re-importing a record no longer creates a duplicate edition.

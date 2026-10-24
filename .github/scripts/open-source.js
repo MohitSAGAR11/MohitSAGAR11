@@ -1,9 +1,12 @@
 // Rewrites the two auto-generated blocks in the README's Open Source section:
 //   OSS-FIXED — pull requests that close an issue USER reported themselves
 //   OSS-LIST  — every upstream pull request, grouped by repository
-// Both come from one GraphQL search. Called by .github/workflows/open-source.yml.
+// It also redraws assets/oss-timeline-{dark,light}.svg (see oss-timeline.js).
+// All of it comes from one GraphQL search. Called by .github/workflows/open-source.yml.
 
 const fs = require('fs');
+const { THEMES } = require('./svg-kit');
+const { renderTimeline } = require('./oss-timeline');
 
 const USER = 'MohitSAGAR11';
 
@@ -29,7 +32,7 @@ const QUERY = `
     search(query: $q, type: ISSUE, first: 100) {
       nodes {
         ... on PullRequest {
-          number title url state isDraft createdAt
+          number title url state isDraft createdAt mergedAt
           repository { nameWithOwner url }
           closingIssuesReferences(first: 5) {
             nodes { number title url author { login } }
@@ -118,5 +121,8 @@ module.exports = async ({ github, core }) => {
   }
 
   fs.writeFileSync('README.md', updated);
+  for (const [name, theme] of Object.entries(THEMES)) {
+    fs.writeFileSync(`assets/oss-timeline-${name}.svg`, renderTimeline(prs, theme));
+  }
   core.info(`Wrote ${prs.length} upstream pull request(s).`);
 };
