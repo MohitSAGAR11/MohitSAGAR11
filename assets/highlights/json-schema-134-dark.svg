@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 156" width="440" height="156" role="img" aria-label="json-schema #134, merged: reject an invalid schema every time. Before: 1st validate throws, 2nd silently passes. After: invalid schema rejected on every validation.">
+  <title>json-schema #134 — reject an invalid schema every time</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) 2.50s both; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { from { opacity: 0; transform: scale(.4) rotate(-8deg); } to { opacity: 1; transform: rotate(-3deg); } }
+    @media (prefers-reduced-motion: reduce) { .pop { animation: none; opacity: 1; transform: rotate(-3deg); } }
+  </style>
+  <defs>
+    <mask id="before" maskUnits="userSpaceOnUse"><rect x="44" y="83" width="0" height="18" fill="#fff">
+      <animate attributeName="width" from="0" to="292" begin="1.1s" dur="0.7s" fill="freeze"/>
+    </rect></mask>
+    <mask id="after" maskUnits="userSpaceOnUse"><rect x="44" y="111" width="0" height="18" fill="#fff">
+      <animate attributeName="width" from="0" to="314" begin="1.8s" dur="0.7s" fill="freeze"/>
+    </rect></mask>
+  </defs>
+
+  <rect x="1" y="1" width="438" height="154" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+  <text x="20" y="28" font-size="12.5"><tspan fill="#8B949E">json-schema</tspan><tspan fill="#FF6B9A" font-weight="700" dx="6">#134</tspan></text>
+  <text x="20" y="52" font-size="12.5" font-weight="700" fill="#E6EDF3">reject an invalid schema every time</text>
+
+  <rect x="12" y="72" width="416" height="66" rx="6" fill="#30363D" fill-opacity="0.35"/>
+  <text x="26" y="96" font-size="12" font-weight="700" fill="#8B949E">-</text>
+  <g mask="url(#before)"><text x="44" y="96" font-size="12" fill="#8B949E">1st validate throws, 2nd silently passes</text></g>
+  <text x="26" y="124" font-size="12" font-weight="700" fill="#FF6B9A">+</text>
+  <g mask="url(#after)"><text x="44" y="124" font-size="12" fill="#E6EDF3">invalid schema rejected on every validation</text></g>
+
+  <g class="pop">
+    <rect x="349.2" y="12" width="70.8" height="22" rx="11" fill="none" stroke="#FF6B9A" stroke-width="1.5"/>
+    <text x="384.6" y="27" font-size="11" font-weight="700" text-anchor="middle" fill="#FF6B9A">merged ✓</text>
+  </g>
+</svg>

@@ -1,5 +1,6 @@
 // Rewrites the two auto-generated blocks in the README's Open Source section:
-//   OSS-FIXED — pull requests that close an issue USER reported themselves
+//   OSS-FIXED — pull requests that close an issue USER reported themselves, as
+//               animated rows in assets/oss-fixed/ (see oss-fixed-rows.js)
 //   OSS-LIST  — every upstream pull request, grouped by repository
 // It also redraws assets/oss-timeline-{dark,light}.svg (see oss-timeline.js).
 // All of it comes from one GraphQL search. Called by .github/workflows/open-source.yml.
@@ -7,8 +8,11 @@
 const fs = require('fs');
 const { THEMES } = require('./svg-kit');
 const { renderTimeline } = require('./oss-timeline');
+const { renderFixedRow } = require('./oss-fixed-rows');
 
 const USER = 'MohitSAGAR11';
+const RAW = `https://raw.githubusercontent.com/${USER}/${USER}/main`;
+const FIXED_DIR = 'assets/oss-fixed';
 
 // Tutorials and coursework rather than upstream contributions.
 const EXCLUDED_REPOS = [
@@ -46,6 +50,10 @@ const QUERY = `
 const escape = (text) =>
   text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\|/g, '\\|');
 
+// Same, for an HTML attribute value, where `|` is harmless and `"` would end the value.
+const attr = (text) =>
+  text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
 const shortName = (nameWithOwner) => nameWithOwner.split('/')[1];
 
 async function fetchPullRequests(github) {
@@ -55,18 +63,35 @@ async function fetchPullRequests(github) {
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 }
 
-function renderFixed(prs) {
-  const rows = prs.flatMap((pr) =>
-    pr.closingIssuesReferences.nodes
-      .filter((issue) => issue.author?.login === USER)
-      .map((issue) => {
-        const repo = shortName(pr.repository.nameWithOwner);
-        return `| [${repo}#${issue.number}](${issue.url}) ${escape(issue.title)} | [#${pr.number}](${pr.url}) | \`${STATUS[pr.state]}\` |`;
-      }),
-  );
+// Pull requests that close an issue USER opened, one entry per issue.
+const selfReportedFixes = (prs) => prs.flatMap((pr) =>
+  pr.closingIssuesReferences.nodes
+    .filter((issue) => issue.author?.login === USER)
+    .map((issue) => ({ repo: shortName(pr.repository.nameWithOwner), issue, pr, merged: pr.state === 'MERGED' })));
 
-  if (!rows.length) return '_No self-reported fixes yet._';
-  return ['| Bug I reported | My fix | Status |', '| --- | --- | --- |', ...rows].join('\n');
+const fixedFile = (fix, theme) => `${FIXED_DIR}/${fix.repo}-${fix.issue.number}-${theme}.svg`;
+
+// Writes one animated row per fix and returns the README block that stacks them.
+function renderFixed(prs) {
+  const fixes = selfReportedFixes(prs);
+  if (!fixes.length) return '_No self-reported fixes yet._';
+
+  fs.mkdirSync(FIXED_DIR, { recursive: true });
+  fixes.forEach((fix, i) => {
+    for (const [name, theme] of Object.entries(THEMES)) {
+      fs.writeFileSync(fixedFile(fix, name), renderFixedRow(fix, theme, i));
+    }
+  });
+
+  const rows = fixes.map((fix) => {
+    const alt = attr(`${fix.repo}#${fix.issue.number} ${fix.issue.title} → #${fix.pr.number} (${STATUS[fix.pr.state]})`);
+    return `  <a href="${fix.pr.url}"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${fixedFile(fix, 'dark')}">
+    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${fixedFile(fix, 'light')}">
+    <img width="900" alt="${alt}" src="${RAW}/${fixedFile(fix, 'dark')}">
+  </picture></a><br>`;
+  });
+  return ['<p align="center">', ...rows, '</p>'].join('\n');
 }
 
 function renderList(prs) {

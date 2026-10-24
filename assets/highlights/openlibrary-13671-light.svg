@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 156" width="440" height="156" role="img" aria-label="openlibrary #13671, merged: My Book Notes modal on the design system. Before: jQuery colorbox; a failed save vanishes silently. After: rebuilt on &lt;ol-dialog&gt;; failed saves show an error.">
+  <title>openlibrary #13671 — My Book Notes modal on the design system</title>
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .pop { opacity: 0; animation: pop .3s cubic-bezier(.2,.7,.2,1) 2.85s both; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { from { opacity: 0; transform: scale(.4) rotate(-8deg); } to { opacity: 1; transform: rotate(-3deg); } }
+    @media (prefers-reduced-motion: reduce) { .pop { animation: none; opacity: 1; transform: rotate(-3deg); } }
+  </style>
+  <defs>
+    <mask id="before" maskUnits="userSpaceOnUse"><rect x="44" y="83" width="0" height="18" fill="#fff">
+      <animate attributeName="width" from="0" to="350" begin="1.45s" dur="0.7s" fill="freeze"/>
+    </rect></mask>
+    <mask id="after" maskUnits="userSpaceOnUse"><rect x="44" y="111" width="0" height="18" fill="#fff">
+      <animate attributeName="width" from="0" to="364" begin="2.15s" dur="0.7s" fill="freeze"/>
+    </rect></mask>
+  </defs>
+
+  <rect x="1" y="1" width="438" height="154" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="20" y="28" font-size="12.5"><tspan fill="#59636E">openlibrary</tspan><tspan fill="#C2185B" font-weight="700" dx="6">#13671</tspan></text>
+  <text x="20" y="52" font-size="12.5" font-weight="700" fill="#1F2328">My Book Notes modal on the design system</text>
+
+  <rect x="12" y="72" width="416" height="66" rx="6" fill="#D0D7DE" fill-opacity="0.35"/>
+  <text x="26" y="96" font-size="12" font-weight="700" fill="#59636E">-</text>
+  <g mask="url(#before)"><text x="44" y="96" font-size="12" fill="#59636E">jQuery colorbox; a failed save vanishes silently</text></g>
+  <text x="26" y="124" font-size="12" font-weight="700" fill="#C2185B">+</text>
+  <g mask="url(#after)"><text x="44" y="124" font-size="12" fill="#1F2328">rebuilt on &lt;ol-dialog&gt;; failed saves show an error</text></g>
+
+  <g class="pop">
+    <rect x="349.2" y="12" width="70.8" height="22" rx="11" fill="none" stroke="#C2185B" stroke-width="1.5"/>
+    <text x="384.6" y="27" font-size="11" font-weight="700" text-anchor="middle" fill="#C2185B">merged ✓</text>
+  </g>
+</svg>
