@@ -12,6 +12,10 @@ on:
     - cron: "30 4 * * *"   # daily 04:30 UTC — after the contribution scan (00:00)
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -22,10 +26,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build activity list
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -112,4 +116,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || git commit -m "chore: refresh recent activity [skip ci]"
-          git push
+          git pull --rebase --quiet && git push   # another README job may have pushed first

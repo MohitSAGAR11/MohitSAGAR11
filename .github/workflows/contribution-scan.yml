@@ -16,6 +16,10 @@ on:
       - .github/scripts/contribution-scan.js
       - .github/workflows/contribution-scan.yml
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -26,10 +30,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Render SVGs
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -42,4 +46,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/contrib-dark.svg assets/contrib-light.svg
           git diff --cached --quiet || git commit -m "chore: refresh contribution scan [skip ci]"
-          git push
+          git pull --rebase --quiet && git push   # another README job may have pushed first
