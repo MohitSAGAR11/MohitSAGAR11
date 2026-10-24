@@ -9,7 +9,7 @@ name: Refresh Recent Activity
 
 on:
   schedule:
-    - cron: "30 4 * * *"   # daily 04:30 UTC — offset from the snake (00:00) and stats (02:00) jobs
+    - cron: "30 4 * * *"   # daily 04:30 UTC — after the contribution scan (00:00)
   workflow_dispatch:
 
 permissions:

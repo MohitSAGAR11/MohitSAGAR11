@@ -279,11 +279,11 @@ status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
 
   <br><br>
 
-  <!-- Contribution snake — regenerated daily by .github/workflows/main.yml -->
+  <!-- Contribution scan — re-rendered daily by .github/workflows/contribution-scan.yml -->
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/contrib-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/contrib-light.svg">
+    <img width="900" alt="Contribution heatmap for the last year, re-lit column by column by a scanning beam" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/contrib-dark.svg">
   </picture>
 
 </div>
