@@ -15,6 +15,8 @@ const { FONT, THEMES } = require('./svg-kit');
 const USER = 'MohitSAGAR11';
 const OUT_DIR = 'assets/stack';
 const RAW = `https://raw.githubusercontent.com/${USER}/${USER}/main/${OUT_DIR}`;
+// Bump when restyling: browsers and GitHub's image proxy cache these URLs.
+const BUST = 'v=amber';
 const REPO = (name) => `https://github.com/${USER}/${name}`;
 
 const RECEIPTS = [
@@ -113,9 +115,9 @@ function footer(theme) {
 }
 
 const picture = (name, alt) => `<picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${name}-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg">
-    <img width="900" alt="${escape(alt)}" src="${RAW}/${name}-dark.svg">
+    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${name}-dark.svg?${BUST}">
+    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg?${BUST}">
+    <img width="900" alt="${escape(alt)}" src="${RAW}/${name}-dark.svg?${BUST}">
   </picture>`;
 
 function readmeBlock() {

@@ -13,6 +13,8 @@ const { renderFixedRow } = require('./oss-fixed-rows');
 const USER = 'MohitSAGAR11';
 const RAW = `https://raw.githubusercontent.com/${USER}/${USER}/main`;
 const FIXED_DIR = 'assets/oss-fixed';
+// Bump when restyling: browsers and GitHub's image proxy cache these URLs.
+const BUST = 'v=amber';
 
 // Tutorials and coursework rather than upstream contributions.
 const EXCLUDED_REPOS = [
@@ -86,9 +88,9 @@ function renderFixed(prs) {
   const rows = fixes.map((fix) => {
     const alt = attr(`${fix.repo}#${fix.issue.number} ${fix.issue.title} → #${fix.pr.number} (${STATUS[fix.pr.state]})`);
     return `  <a href="${fix.pr.url}"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${fixedFile(fix, 'dark')}">
-    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${fixedFile(fix, 'light')}">
-    <img width="900" alt="${alt}" src="${RAW}/${fixedFile(fix, 'dark')}">
+    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${fixedFile(fix, 'dark')}?${BUST}">
+    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${fixedFile(fix, 'light')}?${BUST}">
+    <img width="900" alt="${alt}" src="${RAW}/${fixedFile(fix, 'dark')}?${BUST}">
   </picture></a><br>`;
   });
   return ['<p align="center">', ...rows, '</p>'].join('\n');

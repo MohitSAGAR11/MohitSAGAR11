@@ -14,6 +14,8 @@ const { FONT, THEMES } = require('./svg-kit');
 const USER = 'MohitSAGAR11';
 const OUT_DIR = 'assets/highlights';
 const RAW = `https://raw.githubusercontent.com/${USER}/${USER}/main/${OUT_DIR}`;
+// Bump when restyling: browsers and GitHub's image proxy cache these URLs.
+const BUST = 'v=amber';
 const OL = 'https://github.com/internetarchive/openlibrary/pull';
 
 const CARDS = [
@@ -93,9 +95,9 @@ function card(theme, c, i) {
 }
 
 const picture = (c) => `<a href="${c.url}"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${name(c)}-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name(c)}-light.svg">
-    <img width="410" alt="${escape(`${c.repo} #${c.number} — ${c.title}: ${c.before} → ${c.after}`)}" src="${RAW}/${name(c)}-dark.svg">
+    <source media="(prefers-color-scheme: dark)"  srcset="${RAW}/${name(c)}-dark.svg?${BUST}">
+    <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name(c)}-light.svg?${BUST}">
+    <img width="410" alt="${escape(`${c.repo} #${c.number} — ${c.title}: ${c.before} → ${c.after}`)}" src="${RAW}/${name(c)}-dark.svg?${BUST}">
   </picture></a>`;
 
 function readmeBlock() {
