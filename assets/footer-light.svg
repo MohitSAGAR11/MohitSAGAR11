@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 128" width="900" height="128" role="img" aria-label="build things that matter — ship code that scales">
+  <title>build things that matter — ship code that scales</title>
+  <style>text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; font-size: 14px; }</style>
+  <defs>
+    <mask id="commit" maskUnits="userSpaceOnUse">
+      <rect x="62" y="18" height="22" width="0" fill="#fff"><animate attributeName="width" values="0;336;336;0" keyTimes="0;0.16;0.97;1" dur="10s" repeatCount="indefinite"/></rect>
+    </mask>
+    <mask id="push" maskUnits="userSpaceOnUse">
+      <rect x="62" y="44" height="22" width="0" fill="#fff"><animate attributeName="width" values="0;0;68;68;0" keyTimes="0;0.19;0.25;0.97;1" dur="10s" repeatCount="indefinite"/></rect>
+    </mask>
+  </defs>
+
+  <g>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.92;0.97;1" dur="10s" repeatCount="indefinite"/>
+
+    <text x="42" y="34" fill="#C2185B" font-weight="700">$</text>
+    <g mask="url(#commit)"><text x="62" y="34" fill="#1F2328">git commit -m &quot;build things that matter&quot;</text></g>
+    <rect x="62" y="21" width="8" height="16" fill="#C2185B" opacity="0">
+      <animate attributeName="x" values="62;400;400" keyTimes="0;0.16;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0;0.17" dur="10s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.97" dur="10s" repeatCount="indefinite" calcMode="discrete"/>
+      <text x="42" y="60" fill="#C2185B" font-weight="700">$</text>
+    </g>
+    <g mask="url(#push)"><text x="62" y="60" fill="#1F2328">git push</text></g>
+    <rect x="62" y="47" width="8" height="16" fill="#C2185B" opacity="0">
+      <animate attributeName="x" values="62;62;132;132" keyTimes="0;0.19;0.25;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.29" dur="10s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.29;0.97" dur="10s" repeatCount="indefinite" calcMode="discrete"/>
+      <text x="62" y="86" fill="#59636E"><tspan fill="#6E44C9" font-weight="700">✓</tspan> shipped — code that scales</text>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.31;0.97" dur="10s" repeatCount="indefinite" calcMode="discrete"/>
+      <text x="42" y="112" fill="#C2185B" font-weight="700">$</text>
+      <rect x="62" y="99" width="8" height="16" fill="#C2185B">
+        <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
