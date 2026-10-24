@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img" aria-label="Mohit Sagar — SOFTWARE DEVELOPER · OPEN SOURCE CONTRIBUTOR · BACKEND ENGINEER · AI / ML ENGINEER">
+  <title>Mohit Sagar — SOFTWARE DEVELOPER · OPEN SOURCE CONTRIBUTOR · BACKEND ENGINEER · AI / ML ENGINEER</title>
+  <style>
+    .slam  { transform-box: fill-box; transform-origin: center; animation: slam .38s cubic-bezier(.5,0,.75,0) .25s both, shake .32s linear .63s; }
+    .flash { opacity: 0; animation: flash .45s ease-out .6s; }
+    .ring  { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring .7s cubic-bezier(.2,.7,.2,1) .6s; }
+    .ribbon { transform-box: fill-box; transform-origin: left center; animation: ribbon .3s cubic-bezier(.2,.7,.2,1) .65s both; }
+    @keyframes slam  { from { opacity: 0; transform: scale(2.2) skewX(-10deg); } to { opacity: 1; transform: scale(1) skewX(-10deg); } }
+    @keyframes shake { 0%,100% { transform: skewX(-10deg); } 20% { transform: translate(-5px,3px) skewX(-10deg); } 40% { transform: translate(4px,-3px) skewX(-10deg); } 60% { transform: translate(-3px,-2px) skewX(-10deg); } 80% { transform: translate(2px,2px) skewX(-10deg); } }
+    @keyframes flash { 0% { opacity: .35; } 100% { opacity: 0; } }
+    @keyframes ring  { 0% { opacity: .8; transform: scale(.15); } 100% { opacity: 0; transform: scale(1.6); } }
+    @keyframes ribbon { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) {
+      .slam { animation: none; transform: skewX(-10deg); }
+      .flash, .ring { animation: none; }
+      .ribbon { animation: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect width="900" height="250"/></clipPath>
+    <clipPath id="band"><polygon points="232,166 704,166 668,202 196,202"/></clipPath>
+  </defs>
+
+  <!-- focus lines: two sets, each with a few accent strokes, swapped every 0.15s
+       for an on-twos flicker -->
+  <g clip-path="url(#frame)">
+    <g opacity="1">
+      <animate attributeName="opacity" values="1;0" dur="0.3s" calcMode="discrete" repeatCount="indefinite"/>
+      <path d="M937.2,131.1 L1209.8,139.4 L1209.9,133.1Z M751.3,174.0 L1198.2,255.2 L1199.6,247.4Z M728.8,185.7 L1190.6,292.5 L1191.2,290.1Z M763.8,244.3 L1157.0,400.8 L1159.1,395.4Z M693.1,233.0 L1140.1,440.4 L1142.7,434.7Z M662.8,253.0 L1095.9,522.6 L1098.4,518.4Z M641.4,260.5 L1064.4,569.3 L1067.1,565.6Z M567.8,226.4 L1016.4,628.7 L1021.2,623.3Z M555.6,242.4 L949.8,694.5 L952.3,692.4Z M526.8,231.8 L883.3,746.4 L887.6,743.4Z M517.7,231.7 L848.1,769.4 L850.5,767.9Z M518.8,267.3 L774.0,809.5 L776.3,808.4Z M505.4,276.1 L705.3,837.8 L708.9,836.5Z M481.5,246.3 L634.6,859.2 L638.7,858.2Z M472.6,265.5 L566.1,873.1 L570.2,872.4Z M463.1,274.3 L511.9,879.5 L518.3,878.9Z M445.3,280.8 L424.7,881.6 L430.1,881.7Z M436.6,241.4 L360.7,876.8 L369.1,877.7Z M417.4,253.7 L265.9,859.4 L269.0,860.1Z M410.9,236.8 L203.8,841.0 L205.7,841.7Z M380.7,266.6 L120.1,806.7 L122.8,808.0Z M365.6,264.8 L60.0,774.3 L67.0,778.5Z M361.5,246.4 L6.9,739.5 L12.2,743.2Z M330.9,249.2 L-71.3,675.1 L-67.4,678.7Z M283.0,269.6 L-120.9,623.6 L-118.1,626.8Z M299.6,228.9 L-170.7,560.6 L-168.4,563.8Z M227.9,247.6 L-212.5,494.5 L-210.8,497.5Z M252.8,226.3 L-223.5,474.1 L-219.9,481.0Z M200.1,208.4 L-269.2,367.8 L-267.3,373.1Z M127.2,199.3 L-289.6,297.0 L-288.6,301.1Z M124.7,177.4 L-299.9,245.6 L-298.5,253.6Z M15.7,157.7 L-307.7,180.9 L-307.2,187.8Z M72.3,108.9 L-309.4,92.9 L-309.6,98.6Z M122.9,81.0 L-303.8,25.2 L-304.4,29.9Z M81.4,34.5 L-288.5,-57.3 L-290.4,-49.5Z M207.5,32.0 L-261.3,-145.6 L-263.7,-139.2Z M255.5,30.8 L-236.5,-204.0 L-239.6,-197.5Z M255.0,1.0 L-193.6,-282.2 L-197.8,-275.4Z M254.6,-9.8 L-178.6,-305.1 L-181.4,-301.0Z M297.5,-24.5 L-96.9,-405.8 L-99.2,-403.3Z M311.8,-22.5 L-72.6,-429.8 L-78.1,-424.5Z M343.3,-30.8 L15.6,-501.6 L13.8,-500.4Z M383.2,5.3 L76.5,-539.9 L68.8,-535.5Z M371.9,-31.0 L108.0,-556.7 L101.0,-553.1Z M402.0,-13.0 L197.4,-594.8 L193.1,-593.3Z M419.2,15.0 L241.0,-608.7 L239.0,-608.1Z M422.5,-24.3 L310.9,-625.2 L308.4,-624.7Z M440.8,-10.0 L401.8,-636.5 L392.8,-635.9Z M452.0,-13.3 L464.1,-637.9 L458.5,-638.0Z M467.6,-12.4 L549.9,-631.4 L547.5,-631.7Z M480.1,3.9 L640.1,-613.8 L635.2,-615.1Z M496.2,-22.9 L684.3,-601.0 L677.4,-603.2Z M500.5,11.0 L768.3,-568.2 L760.6,-571.6Z M523.4,-13.1 L814.1,-545.1 L811.4,-546.6Z M544.0,-0.2 L915.8,-478.6 L910.6,-482.5Z M552.3,6.2 L954.8,-446.1 L951.5,-449.1Z M578.2,6.9 L1016.1,-385.1 L1014.7,-386.6Z M622.2,-2.4 L1068.0,-320.4 L1064.4,-325.4Z M651.9,4.0 L1107.1,-259.9 L1105.1,-263.3Z M709.4,-11.3 L1127.7,-222.1 L1124.2,-228.8Z M687.4,24.3 L1153.9,-164.7 L1151.7,-169.9Z M757.6,30.2 L1179.5,-91.2 L1177.1,-99.3Z M884.1,50.7 L1200.1,-0.2 L1199.8,-2.2Z M825.3,114.3 L1209.9,108.9 L1209.8,103.9Z" fill="#8B949E" opacity="0.4"/>
+      <path d="M805.3,163.0 L1204.6,212.3 L1205.3,206.1Z M598.7,238.1 L1047.0,592.3 L1051.1,587.1Z M519.3,244.0 L822.0,784.8 L829.0,780.8Z M433.7,265.8 L361.6,876.9 L367.3,877.5Z M365.7,230.9 L-17.8,721.0 L-12.8,724.8Z M74.6,217.0 L-287.7,304.7 L-285.8,312.2Z M203.5,19.1 L-249.7,-174.7 L-253.0,-166.7Z M267.5,-12.0 L-161.3,-329.5 L-164.0,-326.0Z M422.1,16.1 L258.3,-613.4 L254.3,-612.4Z M482.7,-16.9 L626.2,-617.3 L622.6,-618.2Z M560.6,0.8 L964.9,-437.0 L959.6,-441.8Z M704.9,28.4 L1164.9,-135.9 L1161.9,-144.2Z" fill="#FF6B9A" opacity="0.55"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" calcMode="discrete" repeatCount="indefinite"/>
+      <path d="M799.1,128.9 L1209.8,140.1 L1209.9,134.0Z M823.5,165.4 L1204.8,210.8 L1205.0,208.6Z M734.6,189.1 L1188.8,300.3 L1190.7,292.4Z M750.7,239.5 L1156.8,401.3 L1158.8,396.1Z M715.9,248.2 L1135.3,450.6 L1137.9,445.1Z M630.3,220.0 L1115.6,488.8 L1119.8,481.2Z M632.2,263.9 L1047.8,591.3 L1051.4,586.7Z M599.8,248.6 L1029.4,613.9 L1031.8,611.0Z M574.3,266.3 L945.0,698.7 L947.3,696.7Z M541.4,249.5 L891.9,740.3 L893.9,738.9Z M537.6,253.6 L867.9,756.8 L874.4,752.5Z M513.6,262.7 L760.9,815.5 L765.1,813.6Z M501.3,264.0 L705.0,838.0 L711.5,835.6Z M488.3,280.0 L626.7,861.2 L631.7,860.0Z M472.1,237.9 L590.0,869.0 L595.1,868.0Z M463.0,268.7 L513.9,879.3 L520.0,878.8Z M442.0,248.6 L400.3,880.4 L403.8,880.6Z M437.2,228.9 L357.4,876.3 L361.3,876.8Z M415.5,274.4 L278.0,862.3 L286.5,864.2Z M401.6,273.4 L215.5,844.9 L221.3,846.8Z M395.9,243.5 L139.4,815.6 L142.0,816.8Z M380.3,231.3 L37.7,760.5 L44.8,765.0Z M354.3,247.3 L-14.1,723.8 L-8.6,728.1Z M356.6,230.3 L-48.3,695.9 L-44.0,699.5Z M334.7,235.2 L-94.5,652.2 L-90.2,656.6Z M284.6,243.2 L-164.0,569.8 L-162.0,572.6Z M250.7,250.1 L-191.6,529.4 L-187.1,536.3Z M191.9,239.3 L-243.5,433.0 L-240.2,440.1Z M218.4,209.5 L-261.5,389.2 L-260.5,391.9Z M105.6,210.7 L-287.1,307.3 L-284.9,315.9Z M41.7,189.1 L-300.3,242.8 L-299.5,247.7Z M116.7,153.6 L-307.0,189.9 L-306.2,197.7Z M-5.6,86.9 L-307.6,62.1 L-307.9,65.2Z M96.0,76.2 L-303.4,21.9 L-304.1,27.3Z M77.9,22.1 L-283.5,-76.8 L-284.4,-73.5Z M157.0,25.1 L-271.0,-118.4 L-272.2,-114.8Z M256.7,34.6 L-241.2,-193.9 L-243.9,-188.0Z M249.4,7.2 L-208.7,-257.1 L-210.6,-253.8Z M271.7,-9.6 L-159.8,-331.6 L-163.3,-326.9Z M326.4,10.4 L-112.4,-389.2 L-115.5,-385.7Z M310.3,-27.2 L-68.1,-434.0 L-70.8,-431.5Z M342.2,-30.6 L14.0,-500.5 L9.1,-497.1Z M390.0,16.3 L76.4,-539.8 L73.1,-538.0Z M386.9,-9.1 L124.4,-564.8 L116.6,-561.0Z M403.4,-20.7 L217.7,-601.6 L210.3,-599.2Z M412.5,-13.4 L250.4,-611.3 L243.8,-609.5Z M425.9,-1.7 L307.2,-624.5 L302.1,-623.5Z M444.0,-35.5 L422.3,-637.5 L420.0,-637.4Z M455.5,-0.1 L487.6,-637.1 L481.1,-637.4Z M469.8,-8.6 L565.9,-629.1 L562.2,-629.7Z M484.2,-10.4 L641.3,-613.5 L639.1,-614.1Z M504.2,-21.7 L722.2,-587.6 L714.4,-590.5Z M514.3,-10.9 L785.1,-560.2 L777.0,-564.1Z M536.9,-14.2 L862.0,-516.6 L855.7,-520.7Z M538.9,-9.8 L877.6,-506.3 L872.3,-509.9Z M570.0,-18.6 L944.4,-455.2 L942.7,-456.6Z M591.3,0.2 L1027.1,-372.6 L1024.1,-376.0Z M617.8,-3.5 L1059.3,-332.2 L1058.0,-334.0Z M646.5,-0.4 L1095.8,-278.7 L1094.4,-280.9Z M633.4,26.5 L1125.0,-227.2 L1123.3,-230.5Z M720.9,16.8 L1159.3,-150.9 L1157.5,-155.5Z M816.2,40.9 L1192.7,-39.3 L1191.3,-45.4Z M848.7,54.4 L1199.6,-3.1 L1199.0,-7.0Z M931.1,109.4 L1209.8,105.0 L1209.7,99.1Z" fill="#8B949E" opacity="0.4"/>
+      <path d="M831.6,167.6 L1204.5,213.2 L1204.8,211.0Z M611.2,236.2 L1068.5,563.7 L1072.0,558.7Z M497.8,244.4 L725.2,830.4 L727.6,829.5Z M411.7,259.5 L242.0,853.0 L250.5,855.4Z M283.5,269.7 L-119.4,625.3 L-117.7,627.3Z M75.1,186.3 L-299.3,248.9 L-298.8,252.1Z M-0.6,101.2 L-309.1,84.2 L-309.3,89.9Z M321.7,-22.9 L-52.9,-447.8 L-54.8,-446.1Z M402.3,-15.4 L204.0,-597.1 L197.5,-594.8Z M496.3,13.5 L749.3,-576.6 L747.0,-577.5Z M555.7,15.7 L988.7,-414.1 L983.1,-419.7Z M898.9,67.8 L1204.7,32.3 L1204.3,29.5Z" fill="#FF6B9A" opacity="0.55"/>
+    </g>
+  </g>
+
+  <path d="M14,36 V14 H36" fill="none" stroke="#FF6B9A" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M886,36 V14 H864" fill="none" stroke="#FF6B9A" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M14,214 V236 H36" fill="none" stroke="#FF6B9A" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M886,214 V236 H864" fill="none" stroke="#FF6B9A" stroke-width="2.5" stroke-linecap="square"/>
+
+  <circle class="ring" cx="450" cy="104" r="190" fill="none" stroke="#FF6B9A" stroke-width="3"/>
+
+  <g class="slam">
+    <text x="456" y="128" text-anchor="middle" font-family="'Arial Black','Helvetica Neue',Impact,'Segoe UI',sans-serif" font-size="74" font-weight="900" letter-spacing="3" fill="#FF6B9A">MOHIT SAGAR</text>
+    <text x="450" y="122" text-anchor="middle" font-family="'Arial Black','Helvetica Neue',Impact,'Segoe UI',sans-serif" font-size="74" font-weight="900" letter-spacing="3" fill="#E6EDF3">MOHIT SAGAR</text>
+  </g>
+
+  <g class="ribbon">
+    <polygon points="232,166 704,166 668,202 196,202" fill="#FF6B9A"/>
+    <g clip-path="url(#band)">
+      <text x="450" y="191" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" font-weight="700" letter-spacing="3" fill="#0D1117" opacity="1">SOFTWARE DEVELOPER
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0140;0.2640" calcMode="discrete" dur="10s" begin="0.95s" repeatCount="indefinite"/>
+      </text>
+      <text x="450" y="191" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" font-weight="700" letter-spacing="3" fill="#0D1117" opacity="0">OPEN SOURCE CONTRIBUTOR
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2640;0.5140" calcMode="discrete" dur="10s" begin="0.95s" repeatCount="indefinite"/>
+      </text>
+      <text x="450" y="191" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" font-weight="700" letter-spacing="3" fill="#0D1117" opacity="0">BACKEND ENGINEER
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5140;0.7640" calcMode="discrete" dur="10s" begin="0.95s" repeatCount="indefinite"/>
+      </text>
+      <text x="450" y="191" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="17" font-weight="700" letter-spacing="3" fill="#0D1117" opacity="0">AI / ML ENGINEER
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.0140;0.7640" calcMode="discrete" dur="10s" begin="0.95s" repeatCount="indefinite"/>
+      </text>
+      <polygon points="214,166 248,166 218,202 184,202" fill="#FFFFFF" opacity="0.9">
+        <animateTransform attributeName="transform" type="translate" values="-70 0;542 0;-70 0;-70 0;542 0;-70 0;-70 0;542 0;-70 0;-70 0;542 0;-70 0;-70 0" keyTimes="0.0000;0.0280;0.0281;0.2500;0.2780;0.2781;0.5000;0.5280;0.5281;0.7500;0.7780;0.7781;1.0000" dur="10s" begin="0.95s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+
+  <text x="860" y="224" text-anchor="end" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11" letter-spacing="2" fill="#8B949E">github.com/MohitSAGAR11</text>
+
+  <rect class="flash" width="900" height="250" fill="#FFFFFF"/>
+</svg>
