@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 348" width="900" height="348" role="img" aria-label="Mohit Sagar — role: Backend engineer · AI/ML · system design; stack: Java · Python · Go · TypeScript; backend: Spring Boot · Node.js · Express · microservices; ai: LangChain · RAG pipelines · Milvus · OpenAI; infra: Docker · Kubernetes · Prometheus · Grafana · AWS; oss: Open Library · Hyperjump JSON Schema; learning: LangGraph · AI agents · MCP · advanced RAG; location: India">
+  <title>mohit@sagar — system info</title>
+  <!-- Plays once and holds. Rows, logo pixels and swatches are CSS keyframes with
+       per-element delays; the typed command is a SMIL mask wipe, as in the header. -->
+  <style>
+    text { font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; font-size: 13.5px; }
+    .px, .row, .sw, .late { opacity: 0; animation-fill-mode: both; animation-timing-function: cubic-bezier(.2,.7,.2,1); }
+    .px  { animation-name: pop;   animation-duration: .35s; transform-box: fill-box; transform-origin: center; }
+    .row { animation-name: slide; animation-duration: .45s; }
+    .sw  { animation-name: pop;   animation-duration: .3s;  transform-box: fill-box; transform-origin: center; }
+    .late { animation-name: fade; animation-duration: .3s; animation-delay: 2.95s; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes pop   { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: none; } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
+    @keyframes fade  { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .px, .row, .sw, .late { animation: none; opacity: 1; }
+      .blink { animation: none; }
+    }
+  </style>
+  <defs>
+    <mask id="typed" maskUnits="userSpaceOnUse">
+      <rect x="44" y="40" height="26" width="0" fill="#fff">
+        <animate attributeName="width" from="0" to="220" begin="0.2s" dur="0.7s" fill="freeze"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="346" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="24" cy="19" r="5.5" fill="#FF6B9A"/>
+  <circle cx="42" cy="19" r="5.5" fill="#30363D"/>
+  <circle cx="60" cy="19" r="5.5" fill="#30363D"/>
+  <text x="450" y="23" fill="#8B949E" font-size="12" text-anchor="middle">mohit@sagar: ~</text>
+  <line x1="1" y1="37" x2="899" y2="37" stroke="#30363D" stroke-width="1"/>
+
+  <text x="28" y="60" fill="#FF6B9A" font-weight="700">$</text>
+  <g mask="url(#typed)"><text x="44" y="60" fill="#E6EDF3">neofetch --theme raspberry</text></g>
+
+  <g>
+    <g class="px" style="animation-delay:0.95s"><rect x="55" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.09s"><rect x="123" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:0.97s"><rect x="55" y="166" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="163" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.00s"><rect x="72" y="166" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="69" y="163" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.07s"><rect x="106" y="166" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="103" y="163" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.11s"><rect x="123" y="166" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="163" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:0.99s"><rect x="55" y="183" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="180" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.06s"><rect x="89" y="183" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="86" y="180" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.13s"><rect x="123" y="183" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="180" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.01s"><rect x="55" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.08s"><rect x="89" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="86" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.15s"><rect x="123" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.03s"><rect x="55" y="217" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="214" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.17s"><rect x="123" y="217" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="214" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.05s"><rect x="55" y="234" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="231" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.19s"><rect x="123" y="234" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="231" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.07s"><rect x="55" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="52" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.21s"><rect x="123" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="120" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.20s"><rect x="174" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="171" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.23s"><rect x="191" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="188" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.27s"><rect x="208" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="205" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.30s"><rect x="225" y="149" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="222" y="146" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.18s"><rect x="157" y="166" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="154" y="163" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.20s"><rect x="157" y="183" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="154" y="180" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.26s"><rect x="174" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="171" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.29s"><rect x="191" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="188" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.33s"><rect x="208" y="200" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="205" y="197" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.38s"><rect x="225" y="217" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="222" y="214" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.40s"><rect x="225" y="234" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="222" y="231" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.28s"><rect x="157" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="154" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.31s"><rect x="174" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="171" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.35s"><rect x="191" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="188" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+    <g class="px" style="animation-delay:1.39s"><rect x="208" y="251" width="15" height="15" rx="2" fill="#5C1F38"/><rect x="205" y="248" width="15" height="15" rx="2" fill="#FF6B9A"/></g>
+  </g>
+
+  <g class="row" style="animation-delay:1.25s">
+    <text x="300" y="104" font-weight="700"><tspan fill="#FF6B9A">mohit</tspan><tspan fill="#8B949E">@</tspan><tspan fill="#FF6B9A">sagar</tspan></text>
+    <line x1="300" y1="114" x2="392" y2="114" stroke="#8B949E" stroke-width="1" stroke-dasharray="3 3"/>
+  </g>
+  <g>
+    <g class="row" style="animation-delay:1.47s"><text x="300" y="140" fill="#FF6B9A" font-weight="700">role</text><text x="392" y="140" fill="#E6EDF3">Backend engineer · AI/ML · system design</text></g>
+    <g class="row" style="animation-delay:1.58s"><text x="300" y="161" fill="#FF6B9A" font-weight="700">stack</text><text x="392" y="161" fill="#E6EDF3">Java · Python · Go · TypeScript</text></g>
+    <g class="row" style="animation-delay:1.69s"><text x="300" y="182" fill="#FF6B9A" font-weight="700">backend</text><text x="392" y="182" fill="#E6EDF3">Spring Boot · Node.js · Express · microservices</text></g>
+    <g class="row" style="animation-delay:1.80s"><text x="300" y="203" fill="#FF6B9A" font-weight="700">ai</text><text x="392" y="203" fill="#E6EDF3">LangChain · RAG pipelines · Milvus · OpenAI</text></g>
+    <g class="row" style="animation-delay:1.91s"><text x="300" y="224" fill="#FF6B9A" font-weight="700">infra</text><text x="392" y="224" fill="#E6EDF3">Docker · Kubernetes · Prometheus · Grafana · AWS</text></g>
+    <g class="row" style="animation-delay:2.02s"><text x="300" y="245" fill="#FF6B9A" font-weight="700">oss</text><text x="392" y="245" fill="#E6EDF3">Open Library · Hyperjump JSON Schema</text></g>
+    <g class="row" style="animation-delay:2.13s"><text x="300" y="266" fill="#FF6B9A" font-weight="700">learning</text><text x="392" y="266" fill="#E6EDF3">LangGraph · AI agents · MCP · advanced RAG</text></g>
+    <g class="row" style="animation-delay:2.24s"><text x="300" y="287" fill="#FF6B9A" font-weight="700">location</text><text x="392" y="287" fill="#E6EDF3">India</text></g>
+  </g>
+  <g>
+    <rect class="sw" style="animation-delay:2.45s" x="300" y="310" width="22" height="12" rx="2" fill="#3A1424"/>
+    <rect class="sw" style="animation-delay:2.50s" x="326" y="310" width="22" height="12" rx="2" fill="#5C1F38"/>
+    <rect class="sw" style="animation-delay:2.55s" x="352" y="310" width="22" height="12" rx="2" fill="#85234B"/>
+    <rect class="sw" style="animation-delay:2.60s" x="378" y="310" width="22" height="12" rx="2" fill="#B02E5F"/>
+    <rect class="sw" style="animation-delay:2.65s" x="404" y="310" width="22" height="12" rx="2" fill="#E0457B"/>
+    <rect class="sw" style="animation-delay:2.70s" x="430" y="310" width="22" height="12" rx="2" fill="#FF6B9A"/>
+    <rect class="sw" style="animation-delay:2.75s" x="456" y="310" width="22" height="12" rx="2" fill="#FF9DBB"/>
+    <rect class="sw" style="animation-delay:2.80s" x="482" y="310" width="22" height="12" rx="2" fill="#FFD6E3"/>
+  </g>
+
+  <g class="late">
+    <text x="28" y="326" fill="#FF6B9A" font-weight="700">$</text>
+    <rect class="blink" x="44" y="313" width="8" height="16" fill="#FF6B9A"/>
+  </g>
+</svg>

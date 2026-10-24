@@ -62,12 +62,15 @@
 
 Backend engineer who reads the spec before trusting the library. I build **APIs**, **microservices** and **RAG pipelines** in Java, Go and Python, and I contribute upstream to Internet Archive's [Open Library](https://github.com/internetarchive/openlibrary) and the [Hyperjump](https://github.com/hyperjump-io) JSON Schema tools, usually by finding a bug, filing it, then fixing it.
 
-```yaml
-stack:      Java · Python · Go · TypeScript · Spring Boot · Node.js · LangChain
-location:   India
-contact:    mohitsagar378@gmail.com
-status:     currently_learning: [Advanced RAG, AI Agents, LangGraph, MCP]
-```
+<!-- neofetch-style card. Rows live in .github/scripts/sysinfo-card.js — edit there and
+     re-run it rather than editing the two SVGs by hand. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/sysinfo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/sysinfo-light.svg">
+    <img width="900" alt="mohit@sagar — role: Backend engineer, AI/ML, system design · stack: Java, Python, Go, TypeScript · backend: Spring Boot, Node.js, Express, microservices · ai: LangChain, RAG pipelines, Milvus, OpenAI · infra: Docker, Kubernetes, Prometheus, Grafana, AWS · oss: Open Library, Hyperjump JSON Schema · learning: LangGraph, AI agents, MCP, advanced RAG · location: India" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/sysinfo-dark.svg">
+  </picture>
+</p>
 
 <br>
 
