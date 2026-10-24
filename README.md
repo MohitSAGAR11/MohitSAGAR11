@@ -17,11 +17,11 @@
        it reads on both themes. Bump ?v= whenever you regenerate — GitHub's camo proxy caches hard. -->
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-dark.svg?v=1">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-dark.svg?v=2">
     <source media="(prefers-color-scheme: light)"
-            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-light.svg?v=1">
+            srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-light.svg?v=2">
     <img width="900" alt="Mohit Sagar — Software Developer · Open Source Contributor · Backend Engineer · AI/ML Engineer"
-         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-dark.svg?v=1">
+         src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/title-dark.svg?v=2">
   </picture>
 
   <br>
