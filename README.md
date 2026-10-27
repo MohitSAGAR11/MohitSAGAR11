@@ -340,11 +340,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-27` — merged PR [#14002](https://github.com/internetarchive/openlibrary/pull/14002) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-24` — created branch `main` in [MohitSAGAR11/MohitSAGAR11.github.io](https://github.com/MohitSAGAR11/MohitSAGAR11.github.io)
 - `2026-10-24` — opened issue [#14075](https://github.com/internetarchive/openlibrary/issues/14075) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-22` — created branch `14052/feat/acquisition-source-url-feed-name` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 - `2026-10-22` — opened PR [#14054](https://github.com/internetarchive/openlibrary/pull/14054) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-22` — opened issue [#26](https://github.com/hyperjump-io/json-schema-formats/issues/26) in [hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)
 <!-- ACTIVITY:END -->
 
 </details>
