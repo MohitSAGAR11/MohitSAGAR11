@@ -190,6 +190,8 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
+- **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 in review
+  - `in review` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
 - **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 in review
   - `in review` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 in review
