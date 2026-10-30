@@ -343,11 +343,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-29` — created branch `pr-assets` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-10-29` — created branch `14195/fix/canonical-strip-presentation-params` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 - `2026-10-29` — opened PR [#14198](https://github.com/internetarchive/openlibrary/pull/14198) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-10-27` — created branch `14078/perf/get-property-resolve-only-match` in [MohitSAGAR11/infogami](https://github.com/MohitSAGAR11/infogami)
 - `2026-10-27` — opened PR [#284](https://github.com/internetarchive/infogami/pull/284) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
-- `2026-10-27` — merged PR [#14002](https://github.com/internetarchive/openlibrary/pull/14002) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-24` — created branch `main` in [MohitSAGAR11/MohitSAGAR11.github.io](https://github.com/MohitSAGAR11/MohitSAGAR11.github.io)
 <!-- ACTIVITY:END -->
 
 </details>
