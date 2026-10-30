@@ -152,10 +152,20 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 
 <!-- OSS-FIXED:START -->
 <p align="center">
+  <a href="https://github.com/hyperjump-io/json-schema-formats/pull/27"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-dark.svg?v=amber">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-light.svg?v=amber">
+    <img width="900" alt="json-schema-formats#26 email format throws &quot;unknown Address Literal Tag: IPv6&quot; for a malformed IPv6 address literal → #27 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-dark.svg?v=amber">
+  </picture></a><br>
+  <a href="https://github.com/hyperjump-io/json-schema/pull/140"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-dark.svg?v=amber">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-light.svg?v=amber">
+    <img width="900" alt="json-schema#136 multipleOf accepts values that aren't multiples when the divisor is small → #140 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-dark.svg?v=amber">
+  </picture></a><br>
   <a href="https://github.com/hyperjump-io/uri/pull/12"><picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-dark.svg?v=amber">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-light.svg?v=amber">
-    <img width="900" alt="uri#11 Dot-segment removal is wrong for paths that don't start with &quot;/&quot; → #12 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-dark.svg?v=amber">
+    <img width="900" alt="uri#11 Dot-segment removal is wrong for paths that don't start with &quot;/&quot; → #12 (merged)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-dark.svg?v=amber">
   </picture></a><br>
   <a href="https://github.com/hyperjump-io/json-schema-errors/pull/296"><picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-294-dark.svg?v=amber">
@@ -187,14 +197,19 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#13750](https://github.com/internetarchive/openlibrary/pull/13750) Document the button-order convention
   - `merged` [#13718](https://github.com/internetarchive/openlibrary/pull/13718) Status page: four small UI/UX improvements
   - `merged` [#13671](https://github.com/internetarchive/openlibrary/pull/13671) refactor: replace the My Book Notes modal with ol-dialog
-- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged
+- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged · 1 in review
+  - `in review` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
+- **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 merged
+  - `merged` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
+- **[hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)** — 1 in review
+  - `in review` [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) Handle address literal tags the same way in isEmail and isIdnEmail
+- **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 in review
+  - `in review` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
 - **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 in review
   - `in review` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
-- **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 in review
-  - `in review` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 in review
   - `in review` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
 <!-- OSS-LIST:END -->
