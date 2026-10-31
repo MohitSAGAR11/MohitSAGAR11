@@ -358,11 +358,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-10-29` — created branch `pr-assets` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-10-29` — created branch `14195/fix/canonical-strip-presentation-params` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-10-29` — opened PR [#14198](https://github.com/internetarchive/openlibrary/pull/14198) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-10-27` — created branch `14078/perf/get-property-resolve-only-match` in [MohitSAGAR11/infogami](https://github.com/MohitSAGAR11/infogami)
-- `2026-10-27` — opened PR [#284](https://github.com/internetarchive/infogami/pull/284) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
+- `2026-10-30` — opened issue [#176](https://github.com/hyperjump-io/json-language-server/issues/176) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
+- `2026-10-30` — opened PR [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) in [hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)
+- `2026-10-30` — opened PR [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) in [json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)
+- `2026-10-30` — opened PR [#140](https://github.com/hyperjump-io/json-schema/pull/140) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-10-30` — merged PR [#12](https://github.com/hyperjump-io/uri/pull/12) in [hyperjump-io/uri](https://github.com/hyperjump-io/uri)
 <!-- ACTIVITY:END -->
 
 </details>
