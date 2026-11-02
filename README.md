@@ -358,11 +358,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-10-30` — created branch `multipleof-small-divisor` in [MohitSAGAR11/JSON-Schema-Test-Suite](https://github.com/MohitSAGAR11/JSON-Schema-Test-Suite)
 - `2026-10-30` — created branch `fix-multipleof-small-divisor` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
 - `2026-10-30` — created branch `fix-email-address-literal-tags` in [MohitSAGAR11/json-schema-formats](https://github.com/MohitSAGAR11/json-schema-formats)
 - `2026-11-01` — merged PR [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
 - `2026-10-30` — opened issue [#176](https://github.com/hyperjump-io/json-language-server/issues/176) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
-- `2026-10-30` — opened PR [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) in [hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)
 <!-- ACTIVITY:END -->
 
 </details>
