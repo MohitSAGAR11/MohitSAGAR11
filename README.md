@@ -152,6 +152,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 
 <!-- OSS-FIXED:START -->
 <p align="center">
+  <a href="https://github.com/hyperjump-io/json-language-server/pull/186"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-dark.svg?v=amber">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-light.svg?v=amber">
+    <img width="900" alt="json-language-server#176 A non-string $schema is treated as a file path → #186 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-dark.svg?v=amber">
+  </picture></a><br>
   <a href="https://github.com/hyperjump-io/json-schema-formats/pull/27"><picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-dark.svg?v=amber">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-light.svg?v=amber">
@@ -200,16 +205,18 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 - **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged · 1 in review
   - `in review` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
+- **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 merged
+  - `merged` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
 - **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 merged
   - `merged` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 merged
   - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
+- **[hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)** — 1 in review
+  - `in review` [#186](https://github.com/hyperjump-io/json-language-server/pull/186) Report a $schema that isn't a string
 - **[hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)** — 1 in review
   - `in review` [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) Handle address literal tags the same way in isEmail and isIdnEmail
-- **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 in review
-  - `in review` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
 - **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 in review
   - `in review` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
 <!-- OSS-LIST:END -->
