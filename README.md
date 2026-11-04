@@ -358,11 +358,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-10-30` — created branch `multipleof-small-divisor` in [MohitSAGAR11/JSON-Schema-Test-Suite](https://github.com/MohitSAGAR11/JSON-Schema-Test-Suite)
-- `2026-10-30` — created branch `fix-multipleof-small-divisor` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
-- `2026-10-30` — created branch `fix-email-address-literal-tags` in [MohitSAGAR11/json-schema-formats](https://github.com/MohitSAGAR11/json-schema-formats)
-- `2026-11-01` — merged PR [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
-- `2026-10-30` — opened issue [#176](https://github.com/hyperjump-io/json-language-server/issues/176) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
+- `2026-11-04` — opened PR [#186](https://github.com/hyperjump-io/json-language-server/pull/186) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
+- `2026-11-04` — opened issue [#142](https://github.com/hyperjump-io/json-schema/issues/142) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-11-04` — opened issue [#302](https://github.com/hyperjump-io/json-schema-errors/issues/302) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
+- `2026-11-04` — opened issue [#14276](https://github.com/internetarchive/openlibrary/issues/14276) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-03` — merged PR [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) in [json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)
 <!-- ACTIVITY:END -->
 
 </details>
