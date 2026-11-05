@@ -365,11 +365,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-11-04` — merged PR [#14198](https://github.com/internetarchive/openlibrary/pull/14198) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-04` — merged PR [#14054](https://github.com/internetarchive/openlibrary/pull/14054) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-11-04` — opened PR [#186](https://github.com/hyperjump-io/json-language-server/pull/186) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
 - `2026-11-04` — opened issue [#142](https://github.com/hyperjump-io/json-schema/issues/142) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 - `2026-11-04` — opened issue [#302](https://github.com/hyperjump-io/json-schema-errors/issues/302) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
-- `2026-11-04` — opened issue [#14276](https://github.com/internetarchive/openlibrary/issues/14276) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-03` — merged PR [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) in [json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)
 <!-- ACTIVITY:END -->
 
 </details>
