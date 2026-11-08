@@ -152,6 +152,16 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 
 <!-- OSS-FIXED:START -->
 <p align="center">
+  <a href="https://github.com/hyperjump-io/json-schema-errors/pull/303"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-dark.svg?v=amber">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-light.svg?v=amber">
+    <img width="900" alt="json-schema-errors#302 propertyNames: false produces no error message → #303 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-dark.svg?v=amber">
+  </picture></a><br>
+  <a href="https://github.com/hyperjump-io/json-schema/pull/146"><picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-dark.svg?v=amber">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-light.svg?v=amber">
+    <img width="900" alt="json-schema#142 registerSchema silently replaces a schema when the $id is different → #146 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-dark.svg?v=amber">
+  </picture></a><br>
   <a href="https://github.com/hyperjump-io/json-language-server/pull/186"><picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-dark.svg?v=amber">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-light.svg?v=amber">
@@ -202,15 +212,18 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#13750](https://github.com/internetarchive/openlibrary/pull/13750) Document the button-order convention
   - `merged` [#13718](https://github.com/internetarchive/openlibrary/pull/13718) Status page: four small UI/UX improvements
   - `merged` [#13671](https://github.com/internetarchive/openlibrary/pull/13671) refactor: replace the My Book Notes modal with ol-dialog
-- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged · 1 in review
+- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged · 2 in review
+  - `in review` [#146](https://github.com/hyperjump-io/json-schema/pull/146) Throw when registering over a schema with a different $id
   - `in review` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
-- **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 merged
+- **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 merged · 1 in review
+  - `in review` [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) fix: report false schemas under propertyNames
+  - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
+- **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 merged · 1 in review
+  - `in review` [#1262](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1262) test(multipleOf): add cases for instances much smaller than the divisor
   - `merged` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
 - **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 merged
   - `merged` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
-- **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 merged
-  - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
 - **[hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)** — 1 in review
