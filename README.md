@@ -267,7 +267,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   </a>
 </p>
 
-**[PRism](https://github.com/MohitSAGAR11/PRism)** — an AI code reviewer that runs as a GitHub Action. One model finds defects, a second is told to assume each one is wrong and disprove it, and only the survivors are posted. Findings are fingerprinted by content, so a new push doesn't repeat old comments.
+**[PRism](https://github.com/MohitSAGAR11/PRism)** — an AI code reviewer that runs as a GitHub Action. One model finds defects, a second is told to assume each one is wrong and disprove it, and only the survivors are posted. Findings are fingerprinted by content, so a new push doesn't repeat old comments. [Live demo](https://prism-demo-0cud.onrender.com)
+
+<br>
+
+**[CodeFang](https://github.com/MohitSAGAR11/CodeFang)** — a coding agent that can't touch your disk without consent. Every edit it makes lands in an in-memory overlay first, and you approve the diff file by file before anything is written. Runs in the terminal, over Telegram, or in a browser playground. [Live demo](https://codefang-playground.onrender.com)
 
 <br>
 
