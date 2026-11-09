@@ -382,11 +382,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-11-08` — created branch `multipleof-tiny-instance` in [MohitSAGAR11/JSON-Schema-Test-Suite](https://github.com/MohitSAGAR11/JSON-Schema-Test-Suite)
-- `2026-11-08` — opened PR [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
-- `2026-11-08` — opened PR [#146](https://github.com/hyperjump-io/json-schema/pull/146) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
-- `2026-11-08` — opened PR [#1262](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1262) in [json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)
-- `2026-11-04` — merged PR [#14198](https://github.com/internetarchive/openlibrary/pull/14198) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-08` — created branch `web-demo` in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
+- `2026-11-08` — created branch `fix-propertynames-false` in [MohitSAGAR11/json-schema-errors](https://github.com/MohitSAGAR11/json-schema-errors)
+- `2026-11-08` — created branch `web-demo` in [MohitSAGAR11/CodeFang](https://github.com/MohitSAGAR11/CodeFang)
+- `2026-11-08` — merged PR [#1](https://github.com/MohitSAGAR11/CodeFang/pull/1) in [MohitSAGAR11/CodeFang](https://github.com/MohitSAGAR11/CodeFang)
+- `2026-11-08` — merged PR [#1](https://github.com/MohitSAGAR11/PRism/pull/1) in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
 <!-- ACTIVITY:END -->
 
 </details>
