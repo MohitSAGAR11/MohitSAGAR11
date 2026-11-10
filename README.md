@@ -31,37 +31,6 @@
   <img width="100%" alt="Contribution graph for the last year, in amber" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/graph.svg?v=cards">
 </p>
 
-<div align="center">
-
-  <a href="mailto:mohitsagar378@gmail.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=F6F8FA&labelColor=1F2328&label=email">
-      <img alt="Email — mohitsagar378@gmail.com" src="https://img.shields.io/badge/mohitsagar378%40gmail.com-B4690E?style=flat-square&logo=gmail&logoColor=E6EDF3&labelColor=30363D&label=email">
-    </picture>
-  </a>
-  <a href="https://github.com/MohitSAGAR11">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=F6F8FA&labelColor=1F2328&label=github">
-      <img alt="GitHub — MohitSAGAR11" src="https://img.shields.io/badge/MohitSAGAR11-B4690E?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=30363D&label=github">
-    </picture>
-  </a>
-
-  <!-- PLACEHOLDER (optional) — LinkedIn / portfolio / blog.
-       Copy the block below, swap <YOUR-LINKEDIN-URL>, <HANDLE> and the simple-icons
-       slug in `logo=`. Keep the two-variant pattern so it stays theme-aware.
-  <a href="<YOUR-LINKEDIN-URL>">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=F6F8FA&labelColor=1F2328&label=linkedin">
-      <img alt="LinkedIn" src="https://img.shields.io/badge/<HANDLE>-B4690E?style=flat-square&logo=linkedin&logoColor=E6EDF3&labelColor=30363D&label=linkedin">
-    </picture>
-  </a>
-  -->
-
-</div>
-
 <br>
 
 ## About
@@ -118,58 +87,12 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   </picture>
 </p>
 
-**Found it → fixed it** <sub>— bugs I reported upstream, then fixed myself</sub>
-
-<!-- OSS-FIXED:START -->
-<p align="center">
-  <a href="https://github.com/hyperjump-io/json-schema-errors/pull/303"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-light.svg?v=amber">
-    <img width="900" alt="json-schema-errors#302 propertyNames: false produces no error message → #303 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-302-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-schema/pull/146"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-light.svg?v=amber">
-    <img width="900" alt="json-schema#142 registerSchema silently replaces a schema when the $id is different → #146 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-142-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-language-server/pull/186"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-light.svg?v=amber">
-    <img width="900" alt="json-language-server#176 A non-string $schema is treated as a file path → #186 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-language-server-176-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-schema-formats/pull/27"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-light.svg?v=amber">
-    <img width="900" alt="json-schema-formats#26 email format throws &quot;unknown Address Literal Tag: IPv6&quot; for a malformed IPv6 address literal → #27 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-formats-26-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-schema/pull/140"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-light.svg?v=amber">
-    <img width="900" alt="json-schema#136 multipleOf accepts values that aren't multiples when the divisor is small → #140 (in review)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-136-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/uri/pull/12"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-light.svg?v=amber">
-    <img width="900" alt="uri#11 Dot-segment removal is wrong for paths that don't start with &quot;/&quot; → #12 (merged)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/uri-11-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-schema-errors/pull/296"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-294-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-294-light.svg?v=amber">
-    <img width="900" alt="json-schema-errors#294 contentMediaType, contentEncoding and contentSchema throw &quot;unsupported keyword&quot; → #296 (merged)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-errors-294-dark.svg?v=amber">
-  </picture></a><br>
-  <a href="https://github.com/hyperjump-io/json-schema/pull/134"><picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-133-dark.svg?v=amber">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-133-light.svg?v=amber">
-    <img width="900" alt="json-schema#133 An invalid schema is only rejected the first time it's validated → #134 (merged)" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/assets/oss-fixed/json-schema-133-dark.svg?v=amber">
-  </picture></a><br>
-</p>
-<!-- OSS-FIXED:END -->
-
 <details>
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 2 in review
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 3 in review
+  - `in review` [#14349](https://github.com/internetarchive/openlibrary/pull/14349) fix(import): route ISBNs by canonical form, not raw string length
   - `merged` [#14198](https://github.com/internetarchive/openlibrary/pull/14198) Strip presentation, diff and tracking params from rel=canonical
   - `merged` [#14054](https://github.com/internetarchive/openlibrary/pull/14054) feat(acquisitions): carry the OPDS source publication and feed name
   - `merged` [#14024](https://github.com/internetarchive/openlibrary/pull/14024) fix(match): match authors regardless of name order
@@ -192,12 +115,12 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 - **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 merged · 1 in review
   - `in review` [#1262](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1262) test(multipleOf): add cases for instances much smaller than the divisor
   - `merged` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
+- **[hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)** — 1 merged
+  - `merged` [#186](https://github.com/hyperjump-io/json-language-server/pull/186) Report a $schema that isn't a string
 - **[hyperjump-io/uri](https://github.com/hyperjump-io/uri)** — 1 merged
   - `merged` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
-- **[hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)** — 1 in review
-  - `in review` [#186](https://github.com/hyperjump-io/json-language-server/pull/186) Report a $schema that isn't a string
 - **[hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)** — 1 in review
   - `in review` [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) Handle address literal tags the same way in isEmail and isIdnEmail
 - **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 in review
