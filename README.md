@@ -264,11 +264,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-11-10` — opened PR [#14349](https://github.com/internetarchive/openlibrary/pull/14349) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-10` — opened issue [#147](https://github.com/hyperjump-io/json-schema/issues/147) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-11-10` — opened issue [#13](https://github.com/hyperjump-io/uri/issues/13) in [hyperjump-io/uri](https://github.com/hyperjump-io/uri)
+- `2026-11-09` — merged PR [#186](https://github.com/hyperjump-io/json-language-server/pull/186) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
 - `2026-11-08` — created branch `web-demo` in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
-- `2026-11-08` — created branch `fix-propertynames-false` in [MohitSAGAR11/json-schema-errors](https://github.com/MohitSAGAR11/json-schema-errors)
-- `2026-11-08` — created branch `web-demo` in [MohitSAGAR11/CodeFang](https://github.com/MohitSAGAR11/CodeFang)
-- `2026-11-08` — merged PR [#1](https://github.com/MohitSAGAR11/CodeFang/pull/1) in [MohitSAGAR11/CodeFang](https://github.com/MohitSAGAR11/CodeFang)
-- `2026-11-08` — merged PR [#1](https://github.com/MohitSAGAR11/PRism/pull/1) in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
 <!-- ACTIVITY:END -->
 
 </details>
