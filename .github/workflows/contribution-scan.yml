@@ -1,7 +1,10 @@
 name: Refresh Contribution Scan
 
 # Re-renders assets/contrib-dark.svg and assets/contrib-light.svg from the
-# contribution calendar. Logic lives in .github/scripts/contribution-scan.js.
+# contribution calendar and saves the calendar to data/contributions.json.
+# Logic lives in .github/scripts/contribution-scan.js.
+# Then renders the README's SVG cards into cards/ from that JSON with
+# .github/scripts/render_cards.py.
 # Replaced the Platane/snk snake; its old `output` branch is no longer read.
 #
 # Secrets: none required. Uses the built-in GITHUB_TOKEN.
@@ -14,6 +17,8 @@ on:
     branches: [main]
     paths:
       - .github/scripts/contribution-scan.js
+      - .github/scripts/render_cards.py
+      - .github/cards/**
       - .github/workflows/contribution-scan.yml
 
 concurrency:
@@ -40,10 +45,20 @@ jobs:
             const run = require('./.github/scripts/contribution-scan.js');
             await run({ github, core });
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Render cards
+        run: |
+          pip install --quiet fonttools==4.60.1
+          python .github/scripts/render_cards.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/contrib-dark.svg assets/contrib-light.svg
-          git diff --cached --quiet || git commit -m "chore: refresh contribution scan [skip ci]"
+          git add assets/contrib-dark.svg assets/contrib-light.svg data/contributions.json cards
+          git diff --cached --quiet || git commit -m "chore: refresh contribution scan and cards [skip ci]"
           git pull --rebase --quiet && git push   # another README job may have pushed first

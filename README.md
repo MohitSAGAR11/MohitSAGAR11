@@ -8,8 +8,29 @@
   Badge fills use the light-theme shade in both themes: shields.io picks white text
   for any mid-brightness colour, which is unreadable on the bright dark-theme shade.
   Search for "PLACEHOLDER" to find everything you need to fill in.
+
+  The card stack at the top and the two repo cards in Build Spotlight come from
+  .github/scripts/render_cards.py (palette and type from mohitsagar11.github.io),
+  re-rendered daily by .github/workflows/contribution-scan.yml. Edit content there.
   ─────────────────────────────────────────────────────────────────────────────
 -->
+
+<!-- CARDS — rendered by .github/scripts/render_cards.py into cards/. Delays are staggered
+     so the stack plays top to bottom; tiles are 32.5% wide so three sit in a row. -->
+<p align="center">
+  <a href="https://mohitsagar11.github.io/"><img width="100%" alt="Mohit Sagar. Backend &amp; AI engineer, Bangalore, India. I find the bug, file it, fix it. Open to backend &amp; AI internships." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/hero.svg?v=cards"></a>
+</p>
+<p align="center">
+  <a href="https://mohitsagar11.github.io/"><img width="32.5%" alt="Portfolio: mohitsagar11.github.io" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/link-site.svg?v=cards"></a>
+  <a href="https://www.linkedin.com/in/mohit-sagar-066834328/"><img width="32.5%" alt="LinkedIn: in/mohit-sagar-066834328" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/link-linkedin.svg?v=cards"></a>
+  <a href="mailto:mohitsagar378@gmail.com"><img width="32.5%" alt="Email: mohitsagar378@gmail.com" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/link-email.svg?v=cards"></a>
+</p>
+<p align="center">
+  <img width="100%" alt="Contributions per month over the last year, with current streak, active days and busiest day" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/monthly.svg?v=cards">
+</p>
+<p align="center">
+  <img width="100%" alt="Contribution graph for the last year, in amber" src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/graph.svg?v=cards">
+</p>
 
 <div align="center">
 
@@ -267,9 +288,19 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   </a>
 </p>
 
+<!-- Repo card, rendered by .github/scripts/render_cards.py -->
+<p align="center">
+  <a href="https://github.com/MohitSAGAR11/PRism"><img width="100%" alt="PRism — AI code review, GitHub Action. One model proposes defects, a second tries to refute each, and only survivors are posted inline. TypeScript, GitHub Actions, OpenRouter, Octokit, Zod, Vitest. 156 Vitest tests." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/repo-prism.svg?v=cards"></a>
+</p>
+
 **[PRism](https://github.com/MohitSAGAR11/PRism)** — an AI code reviewer that runs as a GitHub Action. One model finds defects, a second is told to assume each one is wrong and disprove it, and only the survivors are posted. Findings are fingerprinted by content, so a new push doesn't repeat old comments. [Live demo](https://prism-demo-0cud.onrender.com)
 
 <br>
+
+<!-- Repo card, rendered by .github/scripts/render_cards.py -->
+<p align="center">
+  <a href="https://github.com/MohitSAGAR11/CodeFang"><img width="100%" alt="CodeFang — coding agent for the terminal. Edits are staged in memory and approved from a unified diff in the terminal or over Telegram; paths are jailed to the workspace. TypeScript, Bun, Vercel AI SDK, Telegraf, Zod. 163 Bun tests." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/repo-codefang.svg?v=cards"></a>
+</p>
 
 **[CodeFang](https://github.com/MohitSAGAR11/CodeFang)** — a coding agent that can't touch your disk without consent. Every edit it makes lands in an in-memory overlay first, and you approve the diff file by file before anything is written. Runs in the terminal, over Telegram, or in a browser playground. [Live demo](https://codefang-playground.onrender.com)
 

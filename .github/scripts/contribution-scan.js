@@ -206,6 +206,23 @@ function renderSvg(calendar, theme) {
 `;
 }
 
+// The calendar as plain data, read by .github/scripts/render_cards.py. Days run oldest
+// first; `level` is GitHub's own 0-4 quartile, so the cards shade cells the way GitHub does.
+const DATA_FILE = 'data/contributions.json';
+
+function writeData(calendar) {
+  const days = calendar.weeks.flatMap((week) => week.contributionDays).map((day) => ({
+    date: day.date,
+    count: day.contributionCount,
+    level: LEVEL[day.contributionLevel] ?? 0,
+  }));
+  // One day per line keeps the daily commit's diff readable.
+  const head = `{"user": ${JSON.stringify(USER)}, "total": ${calendar.totalContributions}, "days": [`;
+  const body = days.map((day) => `  ${JSON.stringify(day)}`).join(',\n');
+  fs.mkdirSync('data', { recursive: true });
+  fs.writeFileSync(DATA_FILE, `${head}\n${body}\n]}\n`);
+}
+
 module.exports = async ({ github, core }) => {
   const calendar = await fetchCalendar(github);
   if (!calendar.weeks.length) {
@@ -213,6 +230,7 @@ module.exports = async ({ github, core }) => {
     return;
   }
 
+  writeData(calendar);
   for (const theme of Object.values(THEMES)) {
     fs.writeFileSync(theme.file, renderSvg(calendar, theme));
   }

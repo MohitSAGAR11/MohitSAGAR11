@@ -1,0 +1,3 @@
+# Local previews from .github/scripts/render_cards.py — the README reads cards/*.svg only.
+cards/preview.html
+cards-static/
