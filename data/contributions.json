@@ -1,4 +1,4 @@
-{"user": "MohitSAGAR11", "total": 570, "days": [
+{"user": "MohitSAGAR11", "total": 572, "days": [
   {"date":"2025-11-09","count":0,"level":0},
   {"date":"2025-11-10","count":1,"level":1},
   {"date":"2025-11-11","count":0,"level":0},
@@ -176,8 +176,8 @@
   {"date":"2026-05-02","count":0,"level":0},
   {"date":"2026-05-03","count":0,"level":0},
   {"date":"2026-05-04","count":0,"level":0},
-  {"date":"2026-05-05","count":0,"level":0},
-  {"date":"2026-05-06","count":2,"level":1},
+  {"date":"2026-05-05","count":1,"level":1},
+  {"date":"2026-05-06","count":1,"level":1},
   {"date":"2026-05-07","count":5,"level":2},
   {"date":"2026-05-08","count":0,"level":0},
   {"date":"2026-05-09","count":0,"level":0},
@@ -349,8 +349,8 @@
   {"date":"2026-10-22","count":10,"level":3},
   {"date":"2026-10-23","count":0,"level":0},
   {"date":"2026-10-24","count":16,"level":4},
-  {"date":"2026-10-25","count":6,"level":2},
-  {"date":"2026-10-26","count":8,"level":2},
+  {"date":"2026-10-25","count":7,"level":2},
+  {"date":"2026-10-26","count":7,"level":2},
   {"date":"2026-10-27","count":4,"level":1},
   {"date":"2026-10-28","count":5,"level":2},
   {"date":"2026-10-29","count":6,"level":2},
@@ -365,5 +365,5 @@
   {"date":"2026-11-07","count":1,"level":1},
   {"date":"2026-11-08","count":17,"level":4},
   {"date":"2026-11-09","count":5,"level":2},
-  {"date":"2026-11-10","count":7,"level":2}
+  {"date":"2026-11-10","count":9,"level":3}
 ]}
