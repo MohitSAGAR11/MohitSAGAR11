@@ -101,6 +101,16 @@ class Repo:
 
 REPOS = (
     Repo(
+        "notebook-lm", "Notebook-LM", "RAG pipeline · chat with your files",
+        "Upload a document and chat with it. Each question is expanded into three, searched in "
+        "parallel, reranked by an LLM, and answered only from the top five chunks.",
+        ("JavaScript", "LangChain", "Pinecone", "RAG", "Embeddings"),
+        "~/notebook-lm",
+        ("upload → chunk 800 / overlap 150", "embed all-MiniLM-L6-v2 → Pinecone",
+         "1 question → 3 queries", "top 5 each → LLM rerank", "✓ answers from the top 5 chunks"),
+        "https://github.com/MohitSAGAR11/Notebook-LM", "https://rag-notebook-lm.netlify.app/",
+    ),
+    Repo(
         "prism", "PRism", "AI code review · GitHub Action",
         "A precision-first AI code reviewer, run as a GitHub Action or CLI. One model proposes "
         "defects, a second tries to refute each, and only survivors are posted inline. PR code "
@@ -122,6 +132,17 @@ REPOS = (
          "? approve changes (y/N)", "✓ 163 Bun tests"),
         "https://github.com/MohitSAGAR11/CodeFang", "https://codefang-playground.onrender.com",
     ),
+    Repo(
+        "recruitor-ai", "Recruitor-AI", "AI screening · full stack",
+        "An end-to-end AI screening pipeline: paste a job description, upload up to 50 CVs, and "
+        "watch candidates scored across five dimensions and ranked live. It audits the shortlist "
+        "for bias and writes 12 tailored interview questions per candidate.",
+        ("JavaScript", "Node.js", "Express", "React", "PostgreSQL", "SSE"),
+        "~/recruitor-ai",
+        ("POST /api/jd/parse", "50 CVs → pdf-parse + mammoth", "score × 5 dimensions → SSE stream",
+         "bias audit on the shortlist", "✓ 12 interview questions each"),
+        "https://github.com/MohitSAGAR11/Recruitor-AI", "https://frontend-rho-teal-32.vercel.app",
+    ),
 )
 
 # Seconds after load at which each card starts, in page order. The repo cards sit
@@ -131,7 +152,7 @@ START = {
     "link-site": 0.55, "link-linkedin": 0.67, "link-email": 0.79,
     "monthly": 1.05,
     "graph": 1.7,
-    "repo-prism": 2.5, "repo-codefang": 2.9,
+    "repo-notebook-lm": 2.5, "repo-prism": 2.85, "repo-codefang": 3.2, "repo-recruitor-ai": 3.55,
 }
 
 

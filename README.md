@@ -9,7 +9,7 @@
   for any mid-brightness colour, which is unreadable on the bright dark-theme shade.
   Search for "PLACEHOLDER" to find everything you need to fill in.
 
-  The card stack at the top and the two repo cards in Build Spotlight come from
+  The card stack at the top and the four repo cards in Build Spotlight come from
   .github/scripts/render_cards.py (palette and type from mohitsagar11.github.io),
   re-rendered daily by .github/workflows/contribution-scan.yml. Edit content there.
   ─────────────────────────────────────────────────────────────────────────────
@@ -273,6 +273,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   </a>
 </p>
 
+<!-- Repo card, rendered by .github/scripts/render_cards.py -->
+<p align="center">
+  <a href="https://github.com/MohitSAGAR11/Notebook-LM"><img width="100%" alt="Notebook-LM — RAG pipeline, chat with your files. Each question is expanded into three, searched in parallel, reranked by an LLM, and answered only from the top five chunks. JavaScript, LangChain, Pinecone, RAG, embeddings." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/repo-notebook-lm.svg?v=cards"></a>
+</p>
+
 **[Notebook-LM](https://github.com/MohitSAGAR11/Notebook-LM)** — upload a document and chat with it. Each question is expanded into three, searched in parallel, reranked by an LLM, and answered only from the top five chunks. [Live demo](https://rag-notebook-lm.netlify.app/)
 
 <br>
@@ -303,6 +308,15 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
 </p>
 
 **[CodeFang](https://github.com/MohitSAGAR11/CodeFang)** — a coding agent that can't touch your disk without consent. Every edit it makes lands in an in-memory overlay first, and you approve the diff file by file before anything is written. Runs in the terminal, over Telegram, or in a browser playground. [Live demo](https://codefang-playground.onrender.com)
+
+<br>
+
+<!-- Repo card, rendered by .github/scripts/render_cards.py -->
+<p align="center">
+  <a href="https://github.com/MohitSAGAR11/Recruitor-AI"><img width="100%" alt="Recruitor-AI — AI screening, full stack. Paste a job description, upload up to 50 CVs, and watch candidates scored across five dimensions and ranked live; it audits the shortlist for bias and writes 12 interview questions per candidate. JavaScript, Node.js, Express, React, PostgreSQL, SSE." src="https://raw.githubusercontent.com/MohitSAGAR11/MohitSAGAR11/main/cards/repo-recruitor-ai.svg?v=cards"></a>
+</p>
+
+**[Recruitor-AI](https://github.com/MohitSAGAR11/Recruitor-AI)** — an AI screening pipeline for recruiters. Paste a job description and upload up to 50 CVs: each candidate is scored across five dimensions and ranked live over Server-Sent Events, the shortlist is audited for bias, and every candidate gets 12 tailored interview questions. LLM calls fall back across Groq, Cerebras, Gemini and OpenRouter. [Live demo](https://frontend-rho-teal-32.vercel.app)
 
 <br>
 
