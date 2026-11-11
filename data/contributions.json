@@ -1,4 +1,4 @@
-{"user": "MohitSAGAR11", "total": 572, "days": [
+{"user": "MohitSAGAR11", "total": 584, "days": [
   {"date":"2025-11-09","count":0,"level":0},
   {"date":"2025-11-10","count":1,"level":1},
   {"date":"2025-11-11","count":0,"level":0},
@@ -56,7 +56,7 @@
   {"date":"2026-01-02","count":0,"level":0},
   {"date":"2026-01-03","count":0,"level":0},
   {"date":"2026-01-04","count":0,"level":0},
-  {"date":"2026-01-05","count":9,"level":3},
+  {"date":"2026-01-05","count":9,"level":2},
   {"date":"2026-01-06","count":0,"level":0},
   {"date":"2026-01-07","count":1,"level":1},
   {"date":"2026-01-08","count":1,"level":1},
@@ -113,7 +113,7 @@
   {"date":"2026-02-28","count":0,"level":0},
   {"date":"2026-03-01","count":4,"level":1},
   {"date":"2026-03-02","count":4,"level":1},
-  {"date":"2026-03-03","count":9,"level":3},
+  {"date":"2026-03-03","count":9,"level":2},
   {"date":"2026-03-04","count":0,"level":0},
   {"date":"2026-03-05","count":1,"level":1},
   {"date":"2026-03-06","count":0,"level":0},
@@ -280,9 +280,9 @@
   {"date":"2026-08-14","count":0,"level":0},
   {"date":"2026-08-15","count":0,"level":0},
   {"date":"2026-08-16","count":12,"level":3},
-  {"date":"2026-08-17","count":9,"level":3},
+  {"date":"2026-08-17","count":9,"level":2},
   {"date":"2026-08-18","count":5,"level":2},
-  {"date":"2026-08-19","count":9,"level":3},
+  {"date":"2026-08-19","count":9,"level":2},
   {"date":"2026-08-20","count":35,"level":4},
   {"date":"2026-08-21","count":0,"level":0},
   {"date":"2026-08-22","count":0,"level":0},
@@ -318,7 +318,7 @@
   {"date":"2026-09-21","count":0,"level":0},
   {"date":"2026-09-22","count":1,"level":1},
   {"date":"2026-09-23","count":16,"level":4},
-  {"date":"2026-09-24","count":9,"level":3},
+  {"date":"2026-09-24","count":9,"level":2},
   {"date":"2026-09-25","count":8,"level":2},
   {"date":"2026-09-26","count":0,"level":0},
   {"date":"2026-09-27","count":0,"level":0},
@@ -365,5 +365,6 @@
   {"date":"2026-11-07","count":1,"level":1},
   {"date":"2026-11-08","count":17,"level":4},
   {"date":"2026-11-09","count":5,"level":2},
-  {"date":"2026-11-10","count":9,"level":3}
+  {"date":"2026-11-10","count":18,"level":4},
+  {"date":"2026-11-11","count":3,"level":1}
 ]}
