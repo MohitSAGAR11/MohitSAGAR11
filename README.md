@@ -91,7 +91,8 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 3 in review
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 4 in review
+  - `in review` [#14395](https://github.com/internetarchive/openlibrary/pull/14395) chore(deps): bump vendor/infogami to 2f85288 (get_property fix for #14078)
   - `in review` [#14349](https://github.com/internetarchive/openlibrary/pull/14349) fix(import): route ISBNs by canonical form, not raw string length
   - `merged` [#14198](https://github.com/internetarchive/openlibrary/pull/14198) Strip presentation, diff and tracking params from rel=canonical
   - `merged` [#14054](https://github.com/internetarchive/openlibrary/pull/14054) feat(acquisitions): carry the OPDS source publication and feed name
@@ -109,6 +110,9 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `in review` [#146](https://github.com/hyperjump-io/json-schema/pull/146) Throw when registering over a schema with a different $id
   - `in review` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
+- **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 merged · 1 in review
+  - `in review` [#288](https://github.com/internetarchive/infogami/pull/288) perf(readquery): cache datatype lookups on the type's revision
+  - `merged` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
 - **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 merged · 1 in review
   - `in review` [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) fix: report false schemas under propertyNames
   - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
@@ -123,8 +127,6 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
 - **[hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)** — 1 in review
   - `in review` [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) Handle address literal tags the same way in isEmail and isIdnEmail
-- **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 in review
-  - `in review` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
 <!-- OSS-LIST:END -->
 
 </details>
