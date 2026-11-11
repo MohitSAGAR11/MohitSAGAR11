@@ -264,11 +264,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-11-10` — opened PR [#14349](https://github.com/internetarchive/openlibrary/pull/14349) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-10` — opened issue [#147](https://github.com/hyperjump-io/json-schema/issues/147) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
-- `2026-11-10` — opened issue [#13](https://github.com/hyperjump-io/uri/issues/13) in [hyperjump-io/uri](https://github.com/hyperjump-io/uri)
-- `2026-11-09` — merged PR [#186](https://github.com/hyperjump-io/json-language-server/pull/186) in [hyperjump-io/json-language-server](https://github.com/hyperjump-io/json-language-server)
-- `2026-11-08` — created branch `web-demo` in [MohitSAGAR11/PRism](https://github.com/MohitSAGAR11/PRism)
+- `2026-11-10` — created branch `14276/fix/isbn-field-routing` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-11-11` — opened PR [#288](https://github.com/internetarchive/infogami/pull/288) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
+- `2026-11-11` — opened issue [#14396](https://github.com/internetarchive/openlibrary/issues/14396) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-11` — opened PR [#14395](https://github.com/internetarchive/openlibrary/pull/14395) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-10` — merged PR [#284](https://github.com/internetarchive/infogami/pull/284) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
 <!-- ACTIVITY:END -->
 
 </details>
