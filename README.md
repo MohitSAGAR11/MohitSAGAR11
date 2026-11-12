@@ -266,11 +266,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-11-11` — created branch `14396/perf/cache-datatype-lookups` in [MohitSAGAR11/infogami](https://github.com/MohitSAGAR11/infogami)
+- `2026-11-11` — created branch `14078/chore/bump-vendor-infogami` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-11-12` — merged PR [#140](https://github.com/hyperjump-io/json-schema/pull/140) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 - `2026-11-10` — created branch `14276/fix/isbn-field-routing` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
 - `2026-11-11` — opened PR [#288](https://github.com/internetarchive/infogami/pull/288) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
-- `2026-11-11` — opened issue [#14396](https://github.com/internetarchive/openlibrary/issues/14396) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-11` — opened PR [#14395](https://github.com/internetarchive/openlibrary/pull/14395) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-10` — merged PR [#284](https://github.com/internetarchive/infogami/pull/284) in [internetarchive/infogami](https://github.com/internetarchive/infogami)
 <!-- ACTIVITY:END -->
 
 </details>
