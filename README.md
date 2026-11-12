@@ -106,9 +106,9 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#13750](https://github.com/internetarchive/openlibrary/pull/13750) Document the button-order convention
   - `merged` [#13718](https://github.com/internetarchive/openlibrary/pull/13718) Status page: four small UI/UX improvements
   - `merged` [#13671](https://github.com/internetarchive/openlibrary/pull/13671) refactor: replace the My Book Notes modal with ol-dialog
-- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 1 merged · 2 in review
+- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 2 merged · 1 in review
   - `in review` [#146](https://github.com/hyperjump-io/json-schema/pull/146) Throw when registering over a schema with a different $id
-  - `in review` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
+  - `merged` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
 - **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 merged · 1 in review
   - `in review` [#288](https://github.com/internetarchive/infogami/pull/288) perf(readquery): cache datatype lookups on the type's revision
