@@ -110,12 +110,12 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `in review` [#146](https://github.com/hyperjump-io/json-schema/pull/146) Throw when registering over a schema with a different $id
   - `merged` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
+- **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 2 merged
+  - `merged` [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) fix: report false schemas under propertyNames
+  - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
 - **[internetarchive/infogami](https://github.com/internetarchive/infogami)** — 1 merged · 1 in review
   - `in review` [#288](https://github.com/internetarchive/infogami/pull/288) perf(readquery): cache datatype lookups on the type's revision
   - `merged` [#284](https://github.com/internetarchive/infogami/pull/284) Resolve only the matching property in Thing.get_property
-- **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 1 merged · 1 in review
-  - `in review` [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) fix: report false schemas under propertyNames
-  - `merged` [#296](https://github.com/hyperjump-io/json-schema-errors/pull/296) fix: support content and OpenAPI keywords
 - **[json-schema-org/JSON-Schema-Test-Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)** — 1 merged · 1 in review
   - `in review` [#1262](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1262) test(multipleOf): add cases for instances much smaller than the divisor
   - `merged` [#1254](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pull/1254) test(multipleOf): add very small divisor and large integer cases
