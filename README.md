@@ -266,11 +266,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-11-16` — created branch `fix-hash-in-fragments` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
+- `2026-11-15` — created branch `feature` in [MohitSAGAR11/git-workflow-assignment](https://github.com/MohitSAGAR11/git-workflow-assignment)
+- `2026-11-15` — created branch `main` in [MohitSAGAR11/git-workflow-assignment](https://github.com/MohitSAGAR11/git-workflow-assignment)
+- `2026-11-16` — opened PR [#153](https://github.com/hyperjump-io/json-schema/pull/153) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 - `2026-11-15` — merged PR [#303](https://github.com/hyperjump-io/json-schema-errors/pull/303) in [hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)
-- `2026-11-14` — opened issue [#14481](https://github.com/internetarchive/openlibrary/issues/14481) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-11` — created branch `14396/perf/cache-datatype-lookups` in [MohitSAGAR11/infogami](https://github.com/MohitSAGAR11/infogami)
-- `2026-11-11` — created branch `14078/chore/bump-vendor-infogami` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
-- `2026-11-12` — merged PR [#140](https://github.com/hyperjump-io/json-schema/pull/140) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
 <!-- ACTIVITY:END -->
 
 </details>
