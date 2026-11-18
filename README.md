@@ -91,7 +91,9 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 4 in review
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 6 in review
+  - `in review` [#14562](https://github.com/internetarchive/openlibrary/pull/14562) Render the subject search form from Jinja, not Templetor
+  - `in review` [#14559](https://github.com/internetarchive/openlibrary/pull/14559) Remove the unused sitemap generator in openlibrary/data
   - `in review` [#14395](https://github.com/internetarchive/openlibrary/pull/14395) chore(deps): bump vendor/infogami to 2f85288 (get_property fix for #14078)
   - `in review` [#14349](https://github.com/internetarchive/openlibrary/pull/14349) fix(import): route ISBNs by canonical form, not raw string length
   - `merged` [#14198](https://github.com/internetarchive/openlibrary/pull/14198) Strip presentation, diff and tracking params from rel=canonical
