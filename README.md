@@ -269,11 +269,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
-- `2026-11-18` — opened PR [#14559](https://github.com/internetarchive/openlibrary/pull/14559) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-16` — created branch `fix-hash-in-fragments` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
-- `2026-11-15` — created branch `feature` in [MohitSAGAR11/git-workflow-assignment](https://github.com/MohitSAGAR11/git-workflow-assignment)
-- `2026-11-15` — created branch `main` in [MohitSAGAR11/git-workflow-assignment](https://github.com/MohitSAGAR11/git-workflow-assignment)
-- `2026-11-16` — opened PR [#153](https://github.com/hyperjump-io/json-schema/pull/153) in [hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)
+- `2026-11-19` — opened PR [#14594](https://github.com/internetarchive/openlibrary/pull/14594) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-18` — created branch `14387/refactor/subjectsearch-jinja` in [MohitSAGAR11/openlibrary](https://github.com/MohitSAGAR11/openlibrary)
+- `2026-11-18` — opened issue [#14570](https://github.com/internetarchive/openlibrary/issues/14570) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-18` — opened PR [#14568](https://github.com/internetarchive/openlibrary/pull/14568) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
+- `2026-11-18` — opened PR [#14563](https://github.com/internetarchive/openlibrary/pull/14563) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 <!-- ACTIVITY:END -->
 
 </details>
