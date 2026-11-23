@@ -91,11 +91,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 10 merged · 9 in review
-  - `in review` [#14594](https://github.com/internetarchive/openlibrary/pull/14594) Drop the unused use_repr argument from the Paginate macro
-  - `in review` [#14568](https://github.com/internetarchive/openlibrary/pull/14568) Render PageList from Jinja, and drop its unreachable use_repr branch
-  - `in review` [#14563](https://github.com/internetarchive/openlibrary/pull/14563) Escape the iframe macro's attributes, and render it from Jinja
-  - `in review` [#14562](https://github.com/internetarchive/openlibrary/pull/14562) Render the subject search form from Jinja, not Templetor
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 14 merged · 5 in review
+  - `merged` [#14594](https://github.com/internetarchive/openlibrary/pull/14594) Drop the unused use_repr argument from the Paginate macro
+  - `merged` [#14568](https://github.com/internetarchive/openlibrary/pull/14568) Render PageList from Jinja, and drop its unreachable use_repr branch
+  - `merged` [#14563](https://github.com/internetarchive/openlibrary/pull/14563) Escape the iframe macro's attributes, and render it from Jinja
+  - `merged` [#14562](https://github.com/internetarchive/openlibrary/pull/14562) Render the subject search form from Jinja, not Templetor
   - `in review` [#14559](https://github.com/internetarchive/openlibrary/pull/14559) Remove the unused sitemap generator in openlibrary/data
   - `in review` [#14395](https://github.com/internetarchive/openlibrary/pull/14395) chore(deps): bump vendor/infogami to 2f85288 (get_property fix for #14078)
   - `in review` [#14349](https://github.com/internetarchive/openlibrary/pull/14349) fix(import): route ISBNs by canonical form, not raw string length
@@ -111,9 +111,16 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#13750](https://github.com/internetarchive/openlibrary/pull/13750) Document the button-order convention
   - `merged` [#13718](https://github.com/internetarchive/openlibrary/pull/13718) Status page: four small UI/UX improvements
   - `merged` [#13671](https://github.com/internetarchive/openlibrary/pull/13671) refactor: replace the My Book Notes modal with ol-dialog
-- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 2 merged · 2 in review
-  - `in review` [#153](https://github.com/hyperjump-io/json-schema/pull/153) Percent-encode "#" in URI fragments
-  - `in review` [#146](https://github.com/hyperjump-io/json-schema/pull/146) Throw when registering over a schema with a different $id
+- **[hyperjump-io/json-schema](https://github.com/hyperjump-io/json-schema)** — 2 merged · 9 in review
+  - `in review` [#178](https://github.com/hyperjump-io/json-schema/pull/178) Report a failing keyword in BASIC when its subschemas didn't say why
+  - `in review` [#176](https://github.com/hyperjump-io/json-schema/pull/176) Find the keyword that applies a reference schema in keywordApplying
+  - `in review` [#174](https://github.com/hyperjump-io/json-schema/pull/174) Read lint directives next to $ref in draft-04 through draft-07
+  - `in review` [#172](https://github.com/hyperjump-io/json-schema/pull/172) Stop following references that lead back to themselves in effectOf
+  - `in review` [#169](https://github.com/hyperjump-io/json-schema/pull/169) Throw when a file bundle's 'id' would break its references
+  - `in review` [#167](https://github.com/hyperjump-io/json-schema/pull/167) Report identifiers that can't be parsed as a URL
+  - `in review` [#164](https://github.com/hyperjump-io/json-schema/pull/164) Look up keywords by name with Object.hasOwn
+  - `in review` [#162](https://github.com/hyperjump-io/json-schema/pull/162) Throw when registering over a schema with a different $id
+  - `in review` [#161](https://github.com/hyperjump-io/json-schema/pull/161) Percent-encode "#" in URI fragments
   - `merged` [#140](https://github.com/hyperjump-io/json-schema/pull/140) Fix multipleOf for small divisors and large values
   - `merged` [#134](https://github.com/hyperjump-io/json-schema/pull/134) Reject an invalid schema every time it's validated
 - **[hyperjump-io/json-schema-errors](https://github.com/hyperjump-io/json-schema-errors)** — 2 merged
@@ -131,8 +138,6 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   - `merged` [#12](https://github.com/hyperjump-io/uri/pull/12) Remove dot segments correctly in paths that don't start with a slash
 - **[vimalyad/classical_machine_learning](https://github.com/vimalyad/classical_machine_learning)** — 1 merged
   - `merged` [#1](https://github.com/vimalyad/classical_machine_learning/pull/1) Random Forest Classification with Hyperparameter Tuning
-- **[hyperjump-io/json-schema-formats](https://github.com/hyperjump-io/json-schema-formats)** — 1 in review
-  - `in review` [#27](https://github.com/hyperjump-io/json-schema-formats/pull/27) Handle address literal tags the same way in isEmail and isIdnEmail
 <!-- OSS-LIST:END -->
 
 </details>
