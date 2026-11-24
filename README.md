@@ -91,12 +91,12 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>All upstream pull requests</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- OSS-LIST:START -->
-- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 14 merged · 5 in review
+- **[internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)** — 15 merged · 4 in review
   - `merged` [#14594](https://github.com/internetarchive/openlibrary/pull/14594) Drop the unused use_repr argument from the Paginate macro
   - `merged` [#14568](https://github.com/internetarchive/openlibrary/pull/14568) Render PageList from Jinja, and drop its unreachable use_repr branch
   - `merged` [#14563](https://github.com/internetarchive/openlibrary/pull/14563) Escape the iframe macro's attributes, and render it from Jinja
   - `merged` [#14562](https://github.com/internetarchive/openlibrary/pull/14562) Render the subject search form from Jinja, not Templetor
-  - `in review` [#14559](https://github.com/internetarchive/openlibrary/pull/14559) Remove the unused sitemap generator in openlibrary/data
+  - `merged` [#14559](https://github.com/internetarchive/openlibrary/pull/14559) Remove the unused sitemap generator in openlibrary/data
   - `in review` [#14395](https://github.com/internetarchive/openlibrary/pull/14395) chore(deps): bump vendor/infogami to 2f85288 (get_property fix for #14078)
   - `in review` [#14349](https://github.com/internetarchive/openlibrary/pull/14349) fix(import): route ISBNs by canonical form, not raw string length
   - `merged` [#14198](https://github.com/internetarchive/openlibrary/pull/14198) Strip presentation, diff and tracking params from rel=canonical
