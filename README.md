@@ -277,11 +277,11 @@ Backend engineer who reads the spec before trusting the library. I build **APIs*
   <summary><b>Recent activity</b> — refreshed daily by GitHub Actions</summary>
 
 <!-- ACTIVITY:START -->
+- `2026-11-23` — created branch `fix-bundle-main-file-references` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
+- `2026-11-23` — created branch `fix-unparsable-uris` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
+- `2026-11-23` — created branch `fix-basic-copies-explain-failure` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
+- `2026-11-24` — merged PR [#14559](https://github.com/internetarchive/openlibrary/pull/14559) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
 - `2026-11-23` — merged PR [#14562](https://github.com/internetarchive/openlibrary/pull/14562) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-23` — merged PR [#14594](https://github.com/internetarchive/openlibrary/pull/14594) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-23` — merged PR [#14563](https://github.com/internetarchive/openlibrary/pull/14563) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-23` — merged PR [#14568](https://github.com/internetarchive/openlibrary/pull/14568) in [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary)
-- `2026-11-23` — created branch `fix-lint-then-else-references` in [MohitSAGAR11/json-schema](https://github.com/MohitSAGAR11/json-schema)
 <!-- ACTIVITY:END -->
 
 </details>
